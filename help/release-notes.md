@@ -1,73 +1,73 @@
 ---
-description: Auditor发行说明
-seo-description: Adobe Experience Platform Auditor发行说明
-seo-title: Auditor发行说明
-title: Auditor发行说明
+description: Auditor 发行说明
+seo-description: Adobe Experience Platform Auditor 发行说明
+seo-title: Auditor 发行说明
+title: Auditor 发行说明
 uuid: 2e1eb2de-f162-45af-a9b0-15dbdac5531d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 35902c30e578980d9675723a874af6da8d7e6a65
 
 ---
 
 
-# Auditor发行说明{#auditor-release-notes}
+# Auditor 发行说明{#auditor-release-notes}
 
-## February 5, 2019 {#section-f73142fd7c85492a806c7fc19a33a525}
+## 2019 年 2 月 5 日 {#section-f73142fd7c85492a806c7fc19a33a525}
 
 **增强功能**
 
-扫描中允许的最大页数已从100增加到500。
+每次允许扫描的页面数量上限已由 100 个增至 500 个。
 
 >[!NOTE]
 >
->由于此增加，完成扫描所需的时间会更长。 在某些情况下，完成500页的扫描可能需要48小时。
+>由于扫描数量增加，完成扫描所需的时间会变得较长。在某些情况下，完成 500 个页面的扫描可能需要长达 48 小时。
 
 ## 2018 年 11 月 2 日 {#section-542a32872efa445dab688285bf87964b}
 
 **新增功能**
 
-您现在可以从“审计者”页面、“卡片”视图或尝试创建新审计时取消当前正在运行的审计。
+现在，您可以通过 Auditor 页面、卡片视图或尝试新建审核，来取消当前正在运行的审核。
 
-## June 4, 2018 {#section-0747f36a1f4f46638b2c6bf182de9864}
+## 2018 年 6 月 4 日 {#section-0747f36a1f4f46638b2c6bf182de9864}
 
 **新增功能**
 
-* 用户现在可以从列表视图、拼贴视图和审核详细信息视图中删除已完成的审核
-* 审核设置现在包含在XLSX下载中
-* 向PDF报表中添加了印刷版本跟踪
+* 现在，用户可以在列表视图、拼贴视图和审核详细信息视图中删除已完成的审核
+* 现在，审核设置已包含在 XLSX 下载中
+* 在 PDF 报表中增加了评分标准版本跟踪信息
 * 改进了审核仅扫描单个页面时的消息传递
-* 添加了从Excel下载页面查看完整报告的链接
+* 增加了从 Excel 下载页面查看完整报表的链接
 
 **错误修复**
 
-确保当用户是IMS组织的管理员时，Shell中显示“管理”链接
+确保当用户是 IMS 组织的管理员时，在 Shell 中显示“管理”链接
 
-## May 17, 2018 {#section-b72792e4e6ad4bd9910f48767704e204}
+## 2018 年 5 月 17 日 {#section-b72792e4e6ad4bd9910f48767704e204}
 
 **新增功能**
 
-* 为“新审核”设置添加了正则表达式测试和验证
+* 增加了对“New Audit”（新建审核）设置的正则表达式测试和验证
 
-   您可以更轻松地输入“包括”或“排除”过滤器，因为输入RegEx值时会验证这些值。
-* 添加了以PDF形式下载审计报告的功能。
-* 在已完成审核的审核设置中添加了测试规则版本号。
+   您可以更轻松地输入“Include Filters”（包含过滤器）或“Exclude Filters”（排除过滤器），因为每当您输入时，Auditor 就会对这些正则表达式值予以验证。
+* 增加了下载 PDF 形式的审核报表的功能。
+* 在已完成的审核中，为审核设置增加了测试评分标准版本号。
 
-## 初始版本，2018年3月22日 {#section-dcc4cd58353b48369d1e994a05a71a29}
+## 初始版本，2018 年 3 月 22 日 {#section-dcc4cd58353b48369d1e994a05a71a29}
 
 >[!NOTE]
 >
->对审计员的访问正在以滚动方式授予。 所有客户将在2018年4月底之前获得访问权。
+>以滚动方式授予 Auditor 的访问权限。所有客户将在 2018 年 4 月底之前获得访问权限。
 
-Adobe Experience Platform Auditor对Adobe Experience cloud实施进行评级建议改进。 Auditor可帮助您从Adobe产品中单独或集中获得更多价值。
+Adobe Experience Platform Auditor 会对 Adobe Experience Cloud 实施进行评分并提供改进建议。Auditor 可帮助您从单个或多个 Adobe 产品中获取更多价值。
 
-使用Auditor，您可以：
+通过使用 Auditor，您可以：
 
-* **一次扫描** 100个网页以了解Adobe技术。 使用高级过滤器根据需要包括或排除任何页面。 您可以一次进行一次审核，并且审核数量不限。
+* **扫描**。每次扫描 100 个网页，以审核 Adobe 技术的实施状况。您可以根据需要，使用高级过滤器来包含或排除任意页面。您可以每次运行一项审核，审核数量不受限制。
 
-* **了解** “接收”一份报告，该报告会根据标签存在、配置和一致性对Adobe实施进行评分。
+* **了解**。接收一份报表，该报表会根据标记存在、配置和一致性，对您的 Adobe 实施情况进行评分。
 
-* **改进** 获取有关如何升级实施的建议并充分利用您的Adobe投资。 Auditor告诉您如何改进实施，指示发现问题的网页，然后指导如何修复它。
+* **改进**。获取有关如何升级实施的各项建议，从而收获投资于 Adobe 的全部价值。Auditor 会确切地告诉您如何改进某项实施，指出存在问题的网页，然后会指导您修复这些问题。
 
-Auditor允许您对自己的实施进行疑难解答和更正，从而使您能够更好地控制实施标记，进而控制数据。 这减少了联系客户关怀团队时遇到有关实施标签的问题的需求。
+Auditor 赋予您诊断和更正贵公司实施情况的能力，让您可以更好地控制标记实施，进而控制贵公司的数据。这可以降低在遇到有关实施标记的问题时联系客户关怀团队的需求。
 
-Auditor是Adobe与ObservePoint之间的合作开发成果。 Auditor用户可以使用有限的ObservePoint功能，而无需支付额外费用。 要使用Auditor，您必须选择从ObservePoint进行通信。
+Auditor 是 Adobe 与 ObservePoint 合作开发的成果。Auditor 用户可以使用有限的 ObservePoint功能，而无需支付额外费用。要使用 Auditor，您必须选择加入 ObservePoint 通信。
