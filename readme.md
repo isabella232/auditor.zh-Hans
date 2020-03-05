@@ -1,6 +1,6 @@
 ---
 source-git-commit: cd2b8452627969f42c27d4679a09abf4c7abc993
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # 贡献文章
@@ -33,7 +33,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Adobe 员工做出的主要更改
 
-如果您是产品团队中负责提供 [!UICONTROL Adobe Experience Cloud] 解决方案的技术作家、项目经理或开发人员，并且您的工作是撰写或创作技术文章，则应使用位于 `https://git.corp.adobe.com/AdobeDocs` 的私有存储库。
+如果您是产品团队中负责提供 [!UICONTROL Adobe Experience Cloud] 解决方案的技术作家、项目经理或开发人员，并且您的工作是撰写或创作技术文章，则应使用位于 `https://git.corp.adobe.com/AdobeDocs` 的专用存储库。
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
@@ -48,7 +48,7 @@ If you submit a pull request with significant changes to documentation and code 
 此存储库中的所有文章都使用 GitHub Flavored Markdown。如果您不熟悉 Markdown，请参阅：
 
 * [Markdown 基础知识](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [可打印 Markdown 速查表](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [可打印的 Markdown 速查表](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## 标签
 
