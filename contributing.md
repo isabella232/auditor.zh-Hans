@@ -1,6 +1,6 @@
 ---
 source-git-commit: 525ab6768a5f4e3af5dfe751bd0669bf92954f92
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # 参与
@@ -23,7 +23,7 @@ translation-type: tm+mt
 
 ## 代码审阅
 
-应以拉取请求的形式提交所有提交，并需要由项目提交者进行审阅。有关发送拉取请求的更多信息，请阅读 [GitHub 的拉取请求文档](https://help.github.com/articles/about-pull-requests/)。
+应以拉取请求的形式提交所有提交，并需要由项目提交者进行审阅。有关发送拉取请求的更多信息，请阅读 [GitHub 的拉取请求文档](https://help.github.com/cn/github/collaborating-with-issues-and-pull-requests/about-pull-requests)。
 
 
 <!--
@@ -37,4 +37,4 @@ submitting a pull request!
 
 ## 安全问题
 
-不应在此问题跟踪器上报告安全问题。而是[应该将安全问题提交给我们的安全专家](https://helpx.adobe.com/security/alertus.html)
+不应在此问题跟踪器上报告安全问题。而是[应该将安全问题提交给我们的安全专家](https://helpx.adobe.com/cn/security/alertus.html)
