@@ -1,10 +1,10 @@
 ---
-description: Adobe Experience Platform Auditor是Adobe Experience Platform的一项服务，它是与ObservePoint共同开发的，ObservePoint是验证数字实施的专家。
-seo-description: Adobe Experience Platform Auditor是Adobe Experience Platform的一项服务，它是与ObservePoint共同开发的，ObservePoint是验证数字实施的专家。
+description: Adobe Experience Platform Auditor 是一项 Adobe Experience Platform 服务，这项服务是 Adobe 和精通于验证数字实施的 ObservePoint 公司共同开发的。
+seo-description: Adobe Experience Platform Auditor 是一项 Adobe Experience Platform 服务，这项服务是 Adobe 和精通于验证数字实施的 ObservePoint 公司共同开发的。
 seo-title: Adobe Experience Platform Auditor
 title: Adobe Experience Platform Auditor
 uuid: 346132cb-d78d-4573-8edd-dbaa4c3bb05d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 35902c30e578980d9675723a874af6da8d7e6a65
 
 ---
@@ -12,30 +12,30 @@ source-git-commit: 35902c30e578980d9675723a874af6da8d7e6a65
 
 # Adobe Experience Platform Auditor{#adobe-experience-cloud-auditor}
 
-Adobe Experience Platform Auditor是Adobe Experience Platform的一项服务，它是与ObservePoint共同开发的，ObservePoint是验证数字实施的专家。
+Adobe Experience Platform Auditor 是一项 Adobe Experience Platform 服务，这项服务是 Adobe 和精通于验证数字实施的 ObservePoint 公司共同开发的。
 
-Adobe Experience cloud用户会通过Auditor收到一份报告，报告对Adobe实施进行分级，并就如何改进提供指导。 Auditor可帮助您从Adobe产品中单独或集中获得更多价值。
+使用 Auditor 时，Adobe Experience Cloud 用户会收到一份关于其 Adobe 解决方案实施的评分以及改进建议的报表。Auditor 可帮助您从单个或多个 Adobe 产品中获取更多价值。
 
-使用Auditor，您可以：
+通过使用 Auditor，您可以：
 
-* **一次扫描** 500个网页以了解Adobe技术。 使用高级过滤器根据需要包括或排除任何页面。 您可以一次进行一次审核，并且审核数量不限。
+* **扫描**。每次扫描 500 个网页，以审核 Adobe 技术的实施状况。您可以根据需要，使用高级过滤器来包含或排除任意页面。您可以每次运行一项审核，审核数量不受限制。
 
-* **了解** “接收”一份报告，该报告会根据标签存在、配置和一致性对Adobe实施进行评分。
+* **了解**。接收一份报表，该报表会根据标记存在、配置和一致性，对您的 Adobe 实施情况进行评分。
 
-* **改进** 获取有关如何升级实施以符合最佳实践的建议，以便充分利用Adobe投资。 Auditor不局限于笼统的建议，告诉您特定实施的确切错误之处，即发现问题的网页，然后指导您如何修复它。
+* **改进**。获取有关如何升级实施的各项建议，以便与最佳做法保持一致，从而收获投资于 Adobe 的全部价值。Auditor 不局限于笼统的建议，它会告诉您某项具体实施的确切错误，以及存在问题的网页，然后会指导您如何修复这些问题。
 
-要使您的网站有效推动更多业务并提供出色的体验，需要正确实施它。 否则，软件要么提供其潜在价值的一小部分，要么什么也不提供。
+如果您希望贵公司的网站能够有效推动更多业务并提供出色的体验，则离不开软件的正确实施。否则，软件要么只能发挥其潜在的部分价值，要么根本不提供任何价值。
 
-但是，将复杂的网站实施保持在持续的流量状态是一个沉重的负担。 Auditor将这一负担转变为提高Adobe投资回报的机会。
+但是，在不断变化的状态下维持网站上的复杂实施，是一项沉重的负担。Auditor 能够将这一负担转变为提高您的 Adobe 投资回报的契机。
 
-Auditor允许您对自己的实施进行疑难解答和更正，从而使您能够更好地控制实施标记，进而控制数据。 这减少了联系客户关怀团队时遇到有关实施标签的问题的需求。
+Auditor 赋予您诊断和更正贵公司实施情况的能力，让您可以更好地控制标记实施，进而控制贵公司的数据。这可以降低在遇到有关实施标记的问题时联系客户关怀团队的需求。
 
-Auditor是Adobe与ObservePoint之间的合作开发成果。 Auditor用户可以使用有限的ObservePoint功能，而无需支付额外费用。 要使用Auditor，您必须选择从ObservePoint进行通信。
+Auditor 是 Adobe 与 ObservePoint 合作开发的成果。Auditor 用户可以使用有限的 ObservePoint功能，而无需支付额外费用。要使用 Auditor，您必须选择加入 ObservePoint 通信。
 
-## Auditor社区论坛 {#section-59846f1856bc40aba23d02fdd9198e25}
+## Auditor 社区论坛 {#section-59846f1856bc40aba23d02fdd9198e25}
 
-如果您需要入门帮助、提出问题或希望就未来的增强功能提出建议或投票，请访问 [Auditor社区论坛](https://forums.adobe.com/community/experience-cloud/platform/core-services/activation-service/auditor) ，与专家和Adobe联系。
+如果您需要获得入门指南帮助、提出问题或希望就未来的增强功能提出建议或投票，请访问 [Auditor 社区论坛](https://forums.adobe.com/community/experience-cloud/platform/core-services/activation-service/auditor)来联系专家和 Adobe 团队。
 
-## Release information {#section-be3e331a123d40f185aa59f23f69355e}
+## 产品版本信息 {#section-be3e331a123d40f185aa59f23f69355e}
 
-有关最新版本的信息，请参阅Auditor [发行说明](release-notes.md#topic-8fa9e41bc3a54240b1873cebe36b75b1)。
+有关最新版本的信息，请参阅 [Auditor 发行说明](release-notes.md#topic-8fa9e41bc3a54240b1873cebe36b75b1)。
