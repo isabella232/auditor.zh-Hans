@@ -4,15 +4,15 @@ seo-description: Adobe Experience Platform Auditor 技术文档。
 seo-title: 'Adobe Experience Platform Auditor 技术文档 '
 title: Adobe Experience Platform Auditor 概述 - 技术文档
 uuid: 346132cb-d78d-4573-8edd-dbaa4c3bb05d
-translation-type: ht
-source-git-commit: 35902c30e578980d9675723a874af6da8d7e6a65
+translation-type: tm+mt
+source-git-commit: 8a35e0c6b3c8ad6d38c02e85b4477e1e1d0f7bbb
 
 ---
 
 
 # Adobe Experience Platform Auditor 概述 {#adobe-experience-cloud-auditor}
 
-Adobe Experience Platform Auditor 是一项 Adobe Experience Platform 服务，这项服务是 Adobe 和精通于验证数字实施的 [ObservePoint](https://www.observepoint.com/) 公司共同开发的。本指南包含 Auditor 的技术文档和自助说明。
+Adobe Experience Platform Auditor 是一项 Adobe Experience Platform 服务，这项服务是 Adobe 和精通于验证数字实施的 [ObservePoint](https://www.observepoint.com/) 公司共同开发的。本指南包含Auditor的技术文档和自助帮助。
 
 使用 Auditor 时，Adobe Experience Cloud 用户会收到一份关于其 Adobe Experience Cloud 实施的评分以及改进建议的报表。Auditor 可帮助您从单个或多个 Adobe 产品中获取更多价值。
 
