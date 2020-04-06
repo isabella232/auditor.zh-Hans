@@ -4,8 +4,8 @@ seo-description: 此参考可提供有关 Auditor 显示的测试警报的更多
 seo-title: 警报
 title: 警报
 uuid: 8f05b3c1-2427-4691-a88f-1de98f120a02
-translation-type: ht
-source-git-commit: 762ff31ca4d5ed69d1b813589e419c51a40d5920
+translation-type: tm+mt
+source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
 
@@ -66,7 +66,7 @@ source-git-commit: 762ff31ca4d5ed69d1b813589e419c51a40d5920
    <td colname="col1"> 
     <draft-comment>
       CAce6db25bc8c443409f0fcc5ac9d622c3 
-    </draft-comment> <p><b>DTM - 置入 pageBottom 回调函数</b> </p> <p>权重：0 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/zh_CN/dtm/t_add_header_fooder_code.html" format="html" scope="external"> 其他信息</a> </p> 
+    </draft-comment> <p><b>DTM - 置入 pageBottom 回调函数</b> </p> <p>权重：0 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> 其他信息</a> </p> 
     <draft-comment>
       TEa9df69942f404055a64262889c8b21d3 
     </draft-comment> </td> 
@@ -77,7 +77,7 @@ source-git-commit: 762ff31ca4d5ed69d1b813589e419c51a40d5920
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>DTM - 自托管</b> </p> <p>权重：0 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/zh_CN/dtm/deployment.html" format="html" scope="external"> 其他信息</a> </p> </td> 
+    </draft-comment> <p><b>DTM - 自托管</b> </p> <p>权重：0 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/dtm/using/client-side/client-side-information.html" format="html" scope="external"> 其他信息</a> </p> </td> 
    <td colname="col2"> <p> 将 DTM 库托管在 Adobe 位于 <span class="filepath">assets.adobedtm.com</span> 的 Akamai 实例上。 </p> <p> 推荐采用自托管方法来加载 DTM，因为这种方法可通过缓存控制、减少第三方脚本依赖项以及增强对发布过程的控制，更好地控制网站的性能。您可以通过自己的 Web 托管或 CDN 来托管并管理 DTM 库。 </p> </td> 
    <td colname="col3"> <p>推荐采用自托管方法在页面上加载 DTM。尽管通过 Akamai CDN 来托管 DTM 的方法适用于大多数情况，但是，自托管方法可提升页面性能。 </p> </td> 
   </tr> 
@@ -85,7 +85,7 @@ source-git-commit: 762ff31ca4d5ed69d1b813589e419c51a40d5920
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b> Experience Cloud ID 服务 - 仅使用一个 AdobeOrg</b> </p> <p>权重：0 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/zh_CN/mcvid/mcvid_id_request.html" format="html" scope="external"> 其他信息</a> </p> </td> 
+    </draft-comment> <p><b> Experience Cloud ID 服务 - 仅使用一个 AdobeOrg</b> </p> <p>权重：0 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/id-service/using/intro/id-request.html" format="html" scope="external"> 其他信息</a> </p> </td> 
    <td colname="col2"> <p>在正常实施 MCID 的过程中，应当使用一个 AdobeOrg。 </p> </td> 
    <td colname="col3"> <p>验证这项实施中是否存在多个 AdobeOrg ID。 </p> </td> 
   </tr> 
@@ -93,7 +93,7 @@ source-git-commit: 762ff31ca4d5ed69d1b813589e419c51a40d5920
    <td colname="col1"> 
     <draft-comment>
       1.0.5 
-    </draft-comment> <p><b>Launch - 置入 pageBottom 回调函数</b> </p> <p>权重：0 </p> <p><a href="https://docs.adobelaunch.com/getting-started" format="https" scope="external"> 其他信息</a> </p> 
+    </draft-comment> <p><b>Launch - 置入 pageBottom 回调函数</b> </p> <p>权重：0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> 其他信息</a> </p> 
     <draft-comment>
       TE48c499b022f545c5bccc6f8bde169685 
     </draft-comment> </td> 
@@ -104,7 +104,7 @@ source-git-commit: 762ff31ca4d5ed69d1b813589e419c51a40d5920
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Launch - 自托管</b> </p> <p>权重：0 </p> <p><a href="https://docs.adobelaunch.com/getting-started" format="https" scope="external"> Launch 入门指南</a> </p> <p><a href="https://docs.adobelaunch.com/client-side-information/asynchronous-deployment" format="https" scope="external"> Launch 异步部署</a> </p> </td> 
+    </draft-comment> <p><b>Launch - 自托管</b> </p> <p>权重：0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Launch 入门指南</a> </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external"> Launch 异步部署</a> </p> </td> 
    <td colname="col2"> <p>将 Launch 库托管在 Adobe 位于 <span class="filepath"> assets.adobedtm.com</span> 的 Akamai 实例上。 </p> <p>推荐采用自托管方法来加载 Launch，因为这种方法可通过缓存控制、减少第三方脚本依赖项以及增强对发布过程的控制，更好地控制网站的性能。您可以通过自己的 Web 托管或 CDN 来托管并管理 Launch 库。 </p> </td> 
    <td colname="col3"> <p>尽管通过 Akamai CDN 来托管 Launch 的方法适用于大多数情况，但是，推荐实施自托管方法以作为提升页面性能的第一步。 </p> </td> 
   </tr> 
@@ -112,7 +112,7 @@ source-git-commit: 762ff31ca4d5ed69d1b813589e419c51a40d5920
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Launch - 应当异步部署</b> </p> <p>权重：0 </p> <p><a href="https://docs.adobelaunch.com/getting-started" format="https" scope="external"> 其他信息</a> </p> </td> 
+    </draft-comment> <p><b>Launch - 应当异步部署</b> </p> <p>权重：0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> 其他信息</a> </p> </td> 
    <td colname="col2"> <p>为了优化性能，应当异步部署 Launch。 </p> </td> 
    <td colname="col3"> <p>将异步参数纳入内联脚本，以确保正确实施 Launch 的异步部署。 </p> </td> 
   </tr> 
@@ -120,7 +120,7 @@ source-git-commit: 762ff31ca4d5ed69d1b813589e419c51a40d5920
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b> Target - mboxDefault 中的内容</b> </p> <p>权重：0 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-mboxcreate.html" format="html" scope="external"> 其他信息</a> </p> </td> 
+    </draft-comment> <p><b> Target - mboxDefault 中的内容</b> </p> <p>权重：0 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/target/using/implement-target/implementing-target.html" format="html" scope="external"> 其他信息</a> </p> </td> 
    <td colname="col2"> <p> 使用 at.js 时，mboxDefault 中应当存在相关内容。 </p> </td> 
    <td colname="col3"> <p>验证内容是否有效。 </p> </td> 
   </tr> 
