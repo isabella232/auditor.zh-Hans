@@ -4,8 +4,8 @@ seo-description: 此参考提供了有关 Auditor 执行的测试的更多信息
 seo-title: 测试参考
 title: 测试参考
 uuid: f1d0769e-a2bd-4cec-acd1-146793644895
-translation-type: ht
-source-git-commit: 0c116f699b697ad010ee074ac67159a49ec09ccd
+translation-type: tm+mt
+source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
 
@@ -46,7 +46,3 @@ source-git-commit: 0c116f699b697ad010ee074ac67159a49ec09ccd
 * Audience Manager
 * Campaign
 * Launch
-
-## 测试类别 {#section-630181db21ef4eec9ce6a13a0482bb55}
-
-此测试参考把测试分为以下类别：
