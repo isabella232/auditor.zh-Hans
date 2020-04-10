@@ -4,7 +4,7 @@ seo-description: 此参考可提供有关 Auditor 执行的配置测试的更多
 seo-title: 配置
 title: 配置
 uuid: d40d815c-edfe-48b9-921f-cea1b0b54a0a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
@@ -101,7 +101,7 @@ source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Target - 最新版本</b> </p> <p>权重：2 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/implementing/target/update-target-tool.html" format="html" scope="external"> 其他信息</a> </p> </td> 
+    </draft-comment> <p><b>Target - 最新版本</b> </p> <p>权重：2 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/dtm/implementing/target/update-target-tool.html" format="html" scope="external"> 其他信息</a> </p> </td> 
    <td colname="col2"> <p> 您的页面没有运行最新版本的 Target 代码库。为了利用性能改进并提供最新功能，我们会不断地更新和调整旨在支持 Experience Cloud 技术的代码库。 </p> </td> 
    <td colname="col3"> <p>安装最新版本的 Target 代码库。 </p> </td> 
   </tr> 
@@ -109,7 +109,7 @@ source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Target - mboxDefault 先于 mboxCreate </b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html" format="html" scope="external"> 其他信息</a> </p> </td> 
+    </draft-comment> <p><b>Target - mboxDefault 先于 mboxCreate </b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/target/using/implement-target/client-side/mbox-implement/mbox-download.html" format="html" scope="external"> 其他信息</a> </p> </td> 
    <td colname="col2"> <p><span class="codeph">mboxCreate</span> 的正确用法类似于下面的示例： </p> <p> <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;!-Customer content--&gt;&lt;/div&gt;&lt;script&gt;mboxCreate('myMboxName')&lt;/script&gt;</span> </p> </td> 
    <td colname="col3"> <p>调用 <span class="codeph">mboxCreate()</span> 之前，请务必包含 <span class="codeph">&lt;div class="mboxDefault"&gt;&lt;/div&gt;</span> 标记。at.js 并不会为您添加此标记。 </p> </td> 
   </tr> 
@@ -117,7 +117,7 @@ source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Target - 有效的 DOCTYPE</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/help/en/target/using/implement-target/client-side/faq-at-js/target-atjs-faq.html#what-html-doctype-does-atjs-require" format="html" scope="external"> 其他信息</a> </p> </td> 
+    </draft-comment> <p><b>Target - 有效的 DOCTYPE</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/help/zh-Hans/target/using/implement-target/client-side/faq-at-js/target-atjs-faq.html#what-html-doctype-does-atjs-require" format="html" scope="external"> 其他信息</a> </p> </td> 
    <td colname="col2"> <p> 检测到无效的 DOCTYPE。在这种情况下，将不会触发 mbox。 </p> <p>对于 at.js，DOCTYPE 必须处于“标准”模式，否则 Target 将无法正常运作。 </p> </td> 
    <td colname="col3"> <p>更新页面上的 DOCTYPE。 </p> </td> 
   </tr> 
