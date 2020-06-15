@@ -4,8 +4,11 @@ seo-description: 'null'
 seo-title: Auditor 常见问题解答
 title: Auditor 常见问题解答
 uuid: 4db0781a-b288-4ec2-97ff-410a8241a61d
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: 631656ed4442f7f0083b1c99a725328a1c51ff9f
+workflow-type: tm+mt
+source-wordcount: '938'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 * [报表会提供哪些信息？](auditor-faq.md#section-752d6b82f6744a3182c4ce16ea6b5d3f)
 * [这些信息的可操作性如何？](auditor-faq.md#section-9308c1ea882048b781087ae6d2eee9f0)
 * [Auditor 是否可以审核非 Adobe 技术？](auditor-faq.md#section-f6e73c56083b4815bbf901296038bcd4)
-* [我是否可以将我的 IP 地址列入白名单，以允许扫描页面...](auditor-faq.md#section-011e4f54c58140ffb93bedeb0745b6cc)
+* [我是否可以批准我的IP地址以允许扫描页面……](auditor-faq.md#section-011e4f54c58140ffb93bedeb0745b6cc)
 * [Auditor 是否使用与 Observepoint 相同的 IP 范围？](auditor-faq.md#section-39512b156e194787981bdd572ff5b5a9)
 
 ## 什么是 Auditor？{#section-c4a9bc8d8eef41598c27e0951a2518e4}
@@ -49,7 +52,7 @@ Auditor 是一项 Adobe Experience Cloud 服务，这项服务是 Adobe 和精�
 * Experience Cloud ID 服务（以前称为 Marketing Cloud ID 服务）
 * Target
 
-目前，以下 Adobe 解决方案未包含在测试评分标准中。计划在未来的更新中，会支持这些解决方案。
+目前，以下 Adobe 解决方案未包含在测试评分标准中。计划在未来的更新中，支持这些解决方案。
 
 * Advertising Cloud Creative
 * Audience Manager
@@ -126,7 +129,7 @@ Auditor 提供的所有建议，旨在帮助您采取措施来解决实施 Adobe
 
 否。但是，ObservePoint 的完整产品服务允许客户审核并监控其所有营销标记和技术。作为 Adobe 客户，您有权访问免费的试用帐户。要访问试用帐户，请参阅 [ObservePoint 的 Auditor 页面](https://www.observepoint.com/adobe-auditor/?utm_source=Adobe&amp;utm_medium=Auditor&amp;utm_campaign=Premium)。
 
-## 我是否可以将我的 IP 地址列入白名单，以允许扫描受登录名保护的页面？{#section-011e4f54c58140ffb93bedeb0745b6cc}
+## Can I approve my IP addresses to allow scanning pages that are protected by a login? {#section-011e4f54c58140ffb93bedeb0745b6cc}
 
 当前，若没有完整的 ObservePoint 产品服务，则不支持这项功能。
 
