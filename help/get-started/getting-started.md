@@ -4,8 +4,11 @@ seo-description: 开始使用 Auditor
 seo-title: 入门指南
 title: 入门指南
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 100%
 
 ---
 
@@ -44,10 +47,10 @@ This page is a placeholder for now, we need things like prerequisites, any plann
 
    ![](assets/config.png)
 
-   有关所有配置选项的说明，请参阅[新建审核](../create-audit/create-new-audit.md#task-6d157f80e5264642b877c2820b1d077d)。
+   有关所有配置选项的说明，请参阅[新建审核](../create-audit/create-new-audit.md)。
 1. 查看报表。
 
-   当您收到通知您扫描已完成的电子邮件时，请单击相应的链接以[查看报表](../reports/scorecard.md#concept-8958a64346c34f74844553dda1ccf869)，并开始了解改进实施以及从 Adobe 解决方案中获得更多价值的机会。
+   当您收到通知您扫描已完成的电子邮件时，请单击相应的链接以[查看报表](../reports/scorecard.md)，并开始了解改进实施以及从 Adobe 解决方案中获得更多价值的机会。
 
    您还可以单击 [Auditor 页面](../get-started/audit-list.md)中的审核名称，以查看审核状态，并在审核完成后查看报表。
 
