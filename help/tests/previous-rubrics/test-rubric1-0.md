@@ -4,8 +4,11 @@ seo-description: 'null'
 seo-title: 测试评分标准 0.0.8
 title: 测试评分标准 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: ht
-source-git-commit: b56d3d2bd79c812fda6a75827d14044d9a8a3b4c
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '1988'
+ht-degree: 100%
 
 ---
 
@@ -117,7 +120,7 @@ Auditor 会根据其他规则和推荐的最佳做法来评估标记。
     <td colname="col3"> <p>确保页面上仅有一个 Analytics 标记。 </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Analytics - 最新版本</b> </p> <p>权重：3 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/sc/appmeasurement/release" format="https" scope="external"> 其他信息</a> </p> </td> 
+    <td colname="col1"> <p><b>Analytics - 最新版本</b> </p> <p>权重：3 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/appmeasurement-updates.html" format="https" scope="external"> 其他信息</a> </p> </td> 
     <td colname="col2"> <p> 您的页面没有运行最新版本的 Analytics 代码库。为了利用性能改进并提供最新功能，我们会不断地更新和调整旨在支持 Experience Cloud 技术的代码库。在 Web 页面上未找到 Analytics 代码时，返回值为 0。 </p> </td>       
     <td colname="col3"> <p>安装最新版本的 Analytics 代码库。 </p> </td> 
    </tr> 
@@ -172,7 +175,7 @@ Auditor 会评估标记在各个 URL 中是否一致。
   </thead>
   <tbody> 
    <tr> 
-    <td colname="col1"> <p><b>Analytics - 一致的代码版本 </b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/choose-implementation-method.html" format="html" scope="external"> 其他信息</a> </p> </td> 
+    <td colname="col1"> <p><b>Analytics - 一致的代码版本 </b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/home.html" format="html" scope="external"> 其他信息</a> </p> </td> 
     <td colname="col2"> <p> 找到多个版本的 Analytics 代码。 </p> </td> 
     <td colname="col3"> <p>将 Analytics 的所有实例替换为当前版本。 </p> </td> 
    </tr> 
@@ -236,7 +239,7 @@ Auditor 会评估标记是否存在，以及标记在页面代码中的位置是
     <td colname="col3"> <p>在每个页面上安装 DTM <span class="codeph">pageBottom</span> 调用。 </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Experience Cloud ID 服务 - Cookie 存在</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> 其他信息</a> </p> </td> 
+    <td colname="col1"> <p><b>Experience Cloud ID 服务 - Cookie 存在</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/dtm/using/tools/macid.html" format="html" scope="external"> 其他信息</a> </p> </td> 
     <td colname="col2"> <p> 未找到 <span class="codeph">AMCV_</span> Cookie。必须从 <span class="codeph">VisitorAPI.js</span> 代码实例化一个访客对象。 </p> </td> 
     <td colname="col3"> <p> 如果这是 DTM 实施，请验证 AdobeOrg ID 是否正确输入到 MCID 工具中。 </p> </td> 
    </tr> 
