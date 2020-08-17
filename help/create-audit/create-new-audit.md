@@ -4,8 +4,11 @@ seo-description: 在 Auditor 中新建审核
 seo-title: 在 Auditor 中新建审核
 title: 在 Auditor 中新建审核
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '501'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +32,7 @@ source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
    名称最多可包含 250 个字符。
 1. （必须）指定起始 URL。
 
-   指定起始 URL 时，必须填写协议。起始 URL 是审核开始爬网的页面。启动后，Auditor 将可以对多达 500 个页面进行爬网，并关注以起始 URL 开头的链接。有关更多信息，请参阅[包含和排除过滤器](../create-audit/filters.md#concept-23531490bb124981ba807ed1806e3257)。起始 URL 最多可包含 250 个字符。
+   指定起始 URL 时，必须填写协议。起始 URL 是审核开始爬网的页面。启动后，Auditor 将可以对多达 500 个页面进行爬网，并关注以起始 URL 开头的链接。有关更多信息，请参阅[包含和排除过滤器](../create-audit/filters.md)。起始 URL 最多可包含 250 个字符。
 
    >[!NOTE]
    >
@@ -52,7 +55,7 @@ source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 
    “Include Filter”（包含过滤器）限制每行最多为 1,000 个字符。
 
-   有关更多信息，请参阅[包含列表](../create-audit/filters.md#section-7626060a56a24b658f8c05f031ac3f5f)。
+   有关更多信息，请参阅[包含列表](../create-audit/filters.md)。
 1. 指定“Exclude Filter”（排除过滤器）。
 
    排除列表可阻止审核 URL。使用精确的 URL、部分 URL 或正则表达式，就像在“Include List”（包含列表）中一样。
@@ -61,7 +64,7 @@ source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 
    “Exclude Filter”（排除过滤器）限制每行最多为 1,000 个字符。
 
-   有关更多信息，请参阅[排除列表](../create-audit/filters.md#section-00aa5e10c878473b91ba0844bebe7ca9)。
+   有关更多信息，请参阅[排除列表](../create-audit/filters.md)。
 1. （可选）如果需要，您可以测试包含和排除过滤器，并测试 URL。
 
    输入过滤器和 URL，然后单击 **[!UICONTROL Apply]**（应用）以运行测试。
