@@ -4,8 +4,11 @@ seo-description: “Include Filter”（包含过滤器）会限制审核可以�
 seo-title: 包含和排除过滤器
 title: 包含和排除过滤器
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '804'
+ht-degree: 98%
 
 ---
 
@@ -77,7 +80,7 @@ Auditor 要求为起始 URL 提供一个页面。在获得访问方面，起始 
 
 “Include Filter”（包含过滤器）可包含精确的 URL、部分 URL 或正则表达式。例如，如果“起始 URL”是 [!DNL http://mysite.com]，则默认情况下可以扫描以下页面（请注意粗体字符）：
 
-```
+```html
 http://mysite.com
 http
 <b>s</b>://mysite.com
@@ -89,9 +92,7 @@ http://
 <b>my</b>.mysite.com/products/products_and_services.html
 ```
 
-对于复杂的 URL 模式，请使用 [ObservePoint 的正则表达式测试程序](http://regex.observepoint.com/)。
-
-另外，有关常见模式的匹配用例，还可以参阅 [ObservePoint 的常用正则表达式](https://help.observepoint.com/articles/2872116-common-regular-expressions-for-observepoint)文档。
+对于复杂的 URL 模式，请使用 [ObservePoint 的正则表达式测试程序](https://regex.observepoint.com/)。
 
 ## “Exclude Filter”（排除过滤器）{#section-00aa5e10c878473b91ba0844bebe7ca9}
 
@@ -107,4 +108,4 @@ http://
 
 ## ObservePoint 文档 {#section-79cdc8e850d047969b6d2badf6bbd6f9}
 
-本文是与 ObservePoint 共同编写的。有关最新信息，请参阅 [ObservePoint 文档](https://help.observepoint.com/articles/2872121-include-and-exclude-filters)。
+本文是与 ObservePoint 共同编写的。For the latest information, refer to the [ObservePoint documentation](https://help.observepoint.com/.
