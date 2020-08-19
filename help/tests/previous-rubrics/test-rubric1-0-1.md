@@ -4,11 +4,11 @@ seo-description: 'null'
 seo-title: 测试评分标准 1.0.1
 title: 测试评分标准 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2737'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -353,7 +353,7 @@ Auditor 会评估标记是否存在，以及标记在页面代码中的位置是
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID 服务 - 代码存在</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-methods.html" format="html" scope="external"> 其他信息</a> </p> </td> 
+    </draft-comment> <p><b>Experience Cloud ID 服务 - 代码存在</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/id-service/using/implementation/implementation-methods.html" format="html" scope="external"> 其他信息</a> </p> </td> 
    <td colname="col2"> <p>未找到 Experience Cloud ID 服务代码。强烈推荐使用 Experience Cloud ID (MCID)，以确保您能够充分利用 Experience Cloud 解决方案，并且这对于跨 Experience Cloud 解决方案的 ID 管理至关重要。 </p> </td> 
    <td colname="col3"> <p> 安装最新版本的 MCID。 </p> </td> 
   </tr> 
