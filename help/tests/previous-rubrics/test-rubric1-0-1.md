@@ -1,14 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
+description: 有关AdobeAuditor测试的信息
+seo-description: 有关AdobeAuditor测试的信息
 seo-title: 测试评分标准 1.0.1
 title: 测试评分标准 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
-translation-type: ht
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: ht
-source-wordcount: '2737'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c3ab954f45bd12758b7bfe100a30c8a9859613b9
+workflow-type: tm+mt
+source-wordcount: '2747'
+ht-degree: 99%
 
 ---
 
