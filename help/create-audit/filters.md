@@ -4,11 +4,11 @@ seo-description: “Include Filter”（包含过滤器）会限制审核可以�
 seo-title: 包含和排除过滤器
 title: 包含和排除过滤器
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '804'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -108,4 +108,4 @@ http://
 
 ## ObservePoint 文档 {#section-79cdc8e850d047969b6d2badf6bbd6f9}
 
-本文是与 ObservePoint 共同编写的。For the latest information, refer to the [ObservePoint documentation](https://help.observepoint.com/.
+本文是与 ObservePoint 共同编写的。有关最新信息，请参阅 [ObservePoint 文档](https://help.observepoint.com/)。
