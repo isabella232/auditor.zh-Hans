@@ -1,14 +1,14 @@
 ---
-description: 有关AdobeAuditor测试的信息
-seo-description: 有关AdobeAuditor测试的信息
+description: 有关 Adobe Auditor 测试的信息
+seo-description: 有关 Adobe Auditor 测试的信息
 seo-title: 测试评分标准 1.0.1
 title: 测试评分标准 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3ab954f45bd12758b7bfe100a30c8a9859613b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2747'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
