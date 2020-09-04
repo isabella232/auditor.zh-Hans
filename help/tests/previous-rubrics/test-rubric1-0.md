@@ -4,10 +4,10 @@ seo-description: 有关 Adobe Auditor 测试的信息
 seo-title: 测试评分标准 0.0.8
 title: 测试评分标准 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: ht
-source-git-commit: c3ab954f45bd12758b7bfe100a30c8a9859613b9
-workflow-type: ht
-source-wordcount: '1998'
+translation-type: tm+mt
+source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
+workflow-type: tm+mt
+source-wordcount: '1983'
 ht-degree: 100%
 
 ---
@@ -58,9 +58,9 @@ ht-degree: 100%
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>DTM - 置入 pageBottom 回调函数</b> </p> <p>权重：0 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> 其他信息</a> </p> 
-     <draft-comment>
+     <!--
        TEa9df69942f404055a64262889c8b21d3 
-     </draft-comment> </td> 
+     --> </td> 
     <td colname="col2"> <p> Dynamic Tag Management 要求使用 <span class="codeph">_satellite.pageBottom()</span> 函数。 </p> <p>最佳做法是将该标记作为 <span class="codeph">&lt;body&gt;</span> 中的<i>最后一个</i>标记。如果在 <span class="codeph">&lt;body&gt;</span> 标记中找到了该函数，则表明存在正常运行的机率，然而由于这不是最佳的做法，所以可能会无法正确运行，或者会出现意外或不希望的结果。 </p> </td> 
     <td colname="col3"> <p>为了确保 DTM 正常运行，请在紧接着闭合的 <span class="codeph">&lt;/body&gt;</span> 标记之前添加内联脚本。 </p> </td> 
    </tr> 
@@ -255,9 +255,9 @@ Auditor 会评估标记是否存在，以及标记在页面代码中的位置是
    </tr> 
    <tr> 
     <td colname="col1"> <p><b> Target - 库已加载到 &lt;head&gt; 中</b> </p> <p>权重：4 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/target/using/implement-target/implementing-target.html" format="html" scope="external"> 其他信息</a> </p> 
-     <draft-comment>
+     <!--
        TE61c380082a4b4706b28a84aa047599a7 
-     </draft-comment> </td> 
+     --> </td> 
     <td colname="col2"> <p> Target 库应该加载到 <span class="codeph">&lt;head&gt;</span> 标记中。 </p> </td> 
     <td colname="col3"> <p> 检查以确保 Target 库已加载到 <span class="codeph">&lt;head&gt;</span> 标记中。 </p> </td> 
    </tr> 
