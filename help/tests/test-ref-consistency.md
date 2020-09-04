@@ -4,10 +4,10 @@ seo-description: 此参考可提供有关 Auditor 执行的标记一致性测试
 seo-title: 标记一致性
 title: 标记一致性
 uuid: 16271dd6-3587-4f33-92f8-54ec4a3d6469
-translation-type: ht
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: ht
-source-wordcount: '114'
+translation-type: tm+mt
+source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
+workflow-type: tm+mt
+source-wordcount: '113'
 ht-degree: 100%
 
 ---
@@ -30,9 +30,9 @@ Auditor 的一致性测试旨在查找所有扫描的页面中是否存在不一
  <tbody> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Analytics - 一致的代码版本 </b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/home.html" format="html" scope="external"> 其他信息</a> </p> </td> 
+    --> <p><b>Analytics - 一致的代码版本 </b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/home.html" format="html" scope="external"> 其他信息</a> </p> </td> 
    <td colname="col2"> <p> 找到多个版本的 Analytics 代码。 </p> </td> 
    <td colname="col3"> <p>将 Analytics 的所有实例替换为当前版本。 </p> </td> 
   </tr> 
