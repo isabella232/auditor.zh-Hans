@@ -4,10 +4,10 @@ seo-description: 此参考可提供有关 Auditor 执行的标记存在测试的
 seo-title: 标记存在
 title: 标记存在
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: ht
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: ht
-source-wordcount: '943'
+translation-type: tm+mt
+source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
+workflow-type: tm+mt
+source-wordcount: '935'
 ht-degree: 100%
 
 ---
@@ -69,65 +69,65 @@ Auditor 会评估标记是否存在，以及标记在页面代码中的位置是
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID 服务 - 代码存在</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/id-service/using/intro/overview.html" format="html" scope="external"> 其他信息</a> </p> </td> 
+    --> <p><b>Experience Cloud ID 服务 - 代码存在</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/id-service/using/intro/overview.html" format="html" scope="external"> 其他信息</a> </p> </td> 
    <td colname="col2"> <p>未找到 Experience Cloud ID 服务代码。强烈推荐使用 Experience Cloud ID (MCID)，以确保您能够充分利用 Experience Cloud 解决方案，并且这对于跨 Experience Cloud 解决方案的 ID 管理至关重要。 </p> </td> 
    <td colname="col3"> <p> 安装最新版本的 MCID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID 服务 - Cookie 存在</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/dtm/using/tools/macid.html" format="html" scope="external"> 其他信息</a> </p> </td> 
+    --> <p><b>Experience Cloud ID 服务 - Cookie 存在</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/dtm/using/tools/macid.html" format="html" scope="external"> 其他信息</a> </p> </td> 
    <td colname="col2"> <p> 未找到 <span class="codeph">AMCV_</span> Cookie。必须从 <span class="codeph">VisitorAPI.js</span> 代码实例化一个访客对象。 </p> </td> 
    <td colname="col3"> <p> 如果这是 DTM 实施，请验证 AdobeOrg ID 是否正确输入到 MCID 工具中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID 服务 - MID 值存在</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/id-service/using/intro/cookies.html" format="html" scope="external"> 其他信息</a> </p> </td> 
+    --> <p><b>Experience Cloud ID 服务 - MID 值存在</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/id-service/using/intro/cookies.html" format="html" scope="external"> 其他信息</a> </p> </td> 
    <td colname="col2"> <p> 在 <span class="codeph"> AMCV_</span> Cookie 中未找到 MID 值。 </p> </td> 
    <td colname="col3"> <p>再次测试，检查是否存在任何 MCID API 延迟。如果这种情况持续存在，请联系 Adobe 客户关怀团队。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.5 
-    </draft-comment> <p><b> Launch - 已加载库</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 其他信息</a> </p> </td> 
+    --> <p><b> Launch - 已加载库</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 其他信息</a> </p> </td> 
    <td colname="col2"> <p> 在 DOM 中未找到全局 _satellite 对象。未安装或无法执行 Launch。 </p> </td> 
    <td colname="col3"> <p>验证是否已在页面上实施 Launch 库，且没有遭到后续脚本活动的阻止。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.5 
-    </draft-comment> <p><b>Launch - 没有多个嵌入脚本</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 其他信息</a> </p> </td> 
+    --> <p><b>Launch - 没有多个嵌入脚本</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 其他信息</a> </p> </td> 
    <td colname="col2"> <p>页面上不应加载多个嵌入脚本。生产站点应当只加载一个 Launch 库。 </p> </td> 
    <td colname="col3"> <p>验证页面上是否只加载了生产库。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.5 
-    </draft-comment> <p><b>Launch - &lt;body&gt; 中存在 pageBottom 回调函数</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 其他信息</a> </p> </td> 
+    --> <p><b>Launch - &lt;body&gt; 中存在 pageBottom 回调函数</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 其他信息</a> </p> </td> 
    <td colname="col2"> <p> 在页面的 <span class="codeph">&lt;body&gt;</span> 标记中没有找到 <span class="codeph">_satellite.pageBottom()</span> 回调函数，它是 Launch 的必需函数。 </p> <p>如果根本在页面上找不到 <span class="codeph">pageBottom</span> 调用，或者如果它位于 <span class="codeph">&lt;head&gt;</span> 标记中（或其他一些意外的位置），测试则会失败。只有在从 <span class="codeph">&lt;body&gt;</span> 标记中找到 <span class="codeph">pageBottom</span> 的情况下，测试才会通过。如果页面上根本不存在这项调用，则无法正常运转，而且另外两个 <span class="codeph">pageBottom</span> 测试也将失败。 </p> </td> 
    <td colname="col3"> <p>为了确保 Launch 正常运行，请在紧接着闭合的 <span class="codeph">&lt;/body&gt;</span> 标记之前添加内联脚本。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.5 
-    </draft-comment> <p><b>Launch - 异步部署时，不应该存在 pageBottom 回调函数</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 其他信息</a> </p> </td> 
+    --> <p><b>Launch - 异步部署时，不应该存在 pageBottom 回调函数</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 其他信息</a> </p> </td> 
    <td colname="col2"> <p>在页面上找到 <span class="codeph">_satellite.pageBottom()</span> 回调函数，异步部署 Launch 时，不应该存在 pageBottom 回调函数。 </p> </td> 
    <td colname="col3"> <p>请移除 <span class="codeph">_satellite.pageBottom()</span> 脚本，以启用适当的 Launch 功能。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b> Target - 代码存在</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/target/using/implement-target/implementing-target.html" format="html" scope="external"> 其他信息</a> </p> </td> 
+    --> <p><b> Target - 代码存在</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/target/using/implement-target/implementing-target.html" format="html" scope="external"> 其他信息</a> </p> </td> 
    <td colname="col2"> <p>应当在 DOM 中定义 Target。 </p> </td> 
    <td colname="col3"> <p>安装最新版本的 Target (at.js)。 </p> </td> 
   </tr> 
