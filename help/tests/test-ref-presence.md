@@ -4,9 +4,9 @@ seo-description: 此参考可提供有关 Auditor 执行的标记存在测试的
 seo-title: 标记存在
 title: 标记存在
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '935'
 ht-degree: 100%
 
