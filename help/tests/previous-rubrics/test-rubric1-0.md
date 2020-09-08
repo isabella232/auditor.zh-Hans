@@ -4,9 +4,9 @@ seo-description: 有关 Adobe Auditor 测试的信息
 seo-title: 测试评分标准 0.0.8
 title: 测试评分标准 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1983'
 ht-degree: 100%
 
