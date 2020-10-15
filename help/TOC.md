@@ -4,13 +4,13 @@ product: auditor
 sub-product: auditor
 audience: end-user
 user-guide-title: Experience Platform Auditor 帮助
-user-guide-description: Generate a report that grades your Adobe Experience Cloud implementation, with pointers on how to improve it.
-breadcrumb-title: Auditor Guide
+user-guide-description: 生成报告来对您的 Adobe Experience Cloud 实施进行分级，其中包含有关如何改进该实施的指导。
+breadcrumb-title: Auditor 指南
 breadcrumb-url: /docs/auditor/using/overview.html
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: eff790431a58c832b299c6d58573d74b5b8dc50a
-workflow-type: ht
-source-wordcount: '53'
+workflow-type: tm+mt
+source-wordcount: '72'
 ht-degree: 100%
 
 ---
