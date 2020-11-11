@@ -1,17 +1,17 @@
 ---
 cloud: experience-cloud
-product: auditor
-sub-product: auditor
+product: adobe experience platform auditor
+sub-product: adobe experience platform auditor
 audience: end-user
 user-guide-title: Experience Platform Auditor 帮助
 user-guide-description: 生成报告来对您的 Adobe Experience Cloud 实施进行分级，其中包含有关如何改进该实施的指导。
-breadcrumb-title: Auditor 指南
+breadcrumb-title: 平台审计员指南
 breadcrumb-url: /docs/auditor/using/overview.html
 translation-type: tm+mt
-source-git-commit: eff790431a58c832b299c6d58573d74b5b8dc50a
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '78'
+ht-degree: 82%
 
 ---
 
@@ -37,5 +37,5 @@ ht-degree: 0%
    + 以前的测试评分标准{#previous-rubrics}
       + [测试评分标准 1.0.1](tests/previous-rubrics/test-rubric1-0-1.md)
       + [测试评分标准 0.0.8](tests/previous-rubrics/test-rubric1-0.md)
-+ [Auditor 常见问题解答](auditor-faq.md)
-+ [Auditor 发行说明](release-notes.md)
++ [Platform Auditor常见问题解答](auditor-faq.md)
++ [Platform Auditor发行说明](release-notes.md)
