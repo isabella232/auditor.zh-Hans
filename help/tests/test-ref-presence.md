@@ -1,23 +1,23 @@
 ---
-description: 此参考可提供有关 Auditor 执行的标记存在测试的更多信息。
-seo-description: 此参考可提供有关 Auditor 执行的标记存在测试的更多信息。
+description: 本参考提供了有关Adobe Experience Platform审计师为标记存在而执行的测试的更多信息。
+seo-description: 本参考提供了有关Adobe Experience Platform审计师为标记存在而执行的测试的更多信息。
 seo-title: 标记存在
 title: 标记存在
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: ht
-source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
-workflow-type: ht
-source-wordcount: '935'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '958'
+ht-degree: 79%
 
 ---
 
 
 # 标记存在
 
-此参考可提供有关 Auditor 执行的标记存在测试的更多信息。
+本参考提供了有关Adobe Experience Platform审计师为标记存在而执行的测试的更多信息。
 
-Auditor 会评估标记是否存在，以及标记在页面代码中的位置是否正确。
+Platform Auditor会评估标记是否存在，以及它是否在页面代码中的正确位置。
 
 <table id="table_98A2E3F7B3154EEFA76D0CAE2FE97CAB"> 
  <thead> 
@@ -31,12 +31,12 @@ Auditor 会评估标记是否存在，以及标记在页面代码中的位置是
   <tr> 
    <td colname="col1"> <p><b>Advertising Cloud - 代码存在</b> </p> <p>权重：5 </p> </td> 
    <td colname="col2"> <p> DOM 中不提供 Advertising Cloud 标记。 </p> </td> 
-   <td colname="col3"> <p>使用 Advertising Cloud Launch Extension 实施 Advertising Cloud 标记。 </p> </td> 
+   <td colname="col3"> <p>使用Advertising CloudAdobe Experience Platform Launch的Advertising Cloud扩展实施标签。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Advertising Cloud - 已实施区段像素</b> </p> <p>权重：5 </p> </td> 
    <td colname="col2"> <p> 将您的 Advertising Cloud 区段像素升级为新的 Advertising Cloud 纯图像标记。采用已弃用的 AMO 区段标记可能会导致数据丢失。 </p> </td> 
-   <td colname="col3"> <p>通过 Advertising Cloud Launch Extension 实施 Advertising Cloud 区段像素。 </p> </td> 
+   <td colname="col3"> <p>使用面向Platform Launch的Advertising Cloud扩展实施Advertising Cloud细分像素。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Analytics - 在 DOM 中加载</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/home.html" format="https" scope="external"> 其他信息</a> </p> </td> 
@@ -96,15 +96,15 @@ Auditor 会评估标记是否存在，以及标记在页面代码中的位置是
     <!--
       1.0.5 
     --> <p><b> Launch - 已加载库</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 其他信息</a> </p> </td> 
-   <td colname="col2"> <p> 在 DOM 中未找到全局 _satellite 对象。未安装或无法执行 Launch。 </p> </td> 
-   <td colname="col3"> <p>验证是否已在页面上实施 Launch 库，且没有遭到后续脚本活动的阻止。 </p> </td> 
+   <td colname="col2"> <p> 在 DOM 中未找到全局 _satellite 对象。平台启动未安装或无法执行。 </p> </td> 
+   <td colname="col3"> <p>验证平台启动库是否已在页面上实现，且未被后续脚本活动阻止。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.5 
     --> <p><b>Launch - 没有多个嵌入脚本</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 其他信息</a> </p> </td> 
-   <td colname="col2"> <p>页面上不应加载多个嵌入脚本。生产站点应当只加载一个 Launch 库。 </p> </td> 
+   <td colname="col2"> <p>页面上不应加载多个嵌入脚本。生产站点只应加载一个平台启动库。 </p> </td> 
    <td colname="col3"> <p>验证页面上是否只加载了生产库。 </p> </td> 
   </tr> 
   <tr> 
@@ -112,16 +112,16 @@ Auditor 会评估标记是否存在，以及标记在页面代码中的位置是
     <!--
       1.0.5 
     --> <p><b>Launch - &lt;body&gt; 中存在 pageBottom 回调函数</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 其他信息</a> </p> </td> 
-   <td colname="col2"> <p> 在页面的 <span class="codeph">&lt;body&gt;</span> 标记中没有找到 <span class="codeph">_satellite.pageBottom()</span> 回调函数，它是 Launch 的必需函数。 </p> <p>如果根本在页面上找不到 <span class="codeph">pageBottom</span> 调用，或者如果它位于 <span class="codeph">&lt;head&gt;</span> 标记中（或其他一些意外的位置），测试则会失败。只有在从 <span class="codeph">&lt;body&gt;</span> 标记中找到 <span class="codeph">pageBottom</span> 的情况下，测试才会通过。如果页面上根本不存在这项调用，则无法正常运转，而且另外两个 <span class="codeph">pageBottom</span> 测试也将失败。 </p> </td> 
-   <td colname="col3"> <p>为了确保 Launch 正常运行，请在紧接着闭合的 <span class="codeph">&lt;/body&gt;</span> 标记之前添加内联脚本。 </p> </td> 
+   <td colname="col2"> <p> The <span class="codeph"> _satellite.pageBottom()</span> callback was not found within the <span class="codeph"> &lt;body&gt;</span> of the page, which is required by Platform Launch. </p> <p>如果根本在页面上找不到 <span class="codeph">pageBottom</span> 调用，或者如果它位于 <span class="codeph">&lt;head&gt;</span> 标记中（或其他一些意外的位置），测试则会失败。只有在从 <span class="codeph">&lt;body&gt;</span> 标记中找到 <span class="codeph">pageBottom</span> 的情况下，测试才会通过。如果页面上根本不存在这项调用，则无法正常运转，而且另外两个 <span class="codeph">pageBottom</span> 测试也将失败。 </p> </td> 
+   <td colname="col3"> <p>Add the inline script immediately prior to the closing <span class="codeph"> &lt;/body&gt;</span> tag to ensure proper Platform Launch functionality. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.5 
     --> <p><b>Launch - 异步部署时，不应该存在 pageBottom 回调函数</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 其他信息</a> </p> </td> 
-   <td colname="col2"> <p>在页面上找到 <span class="codeph">_satellite.pageBottom()</span> 回调函数，异步部署 Launch 时，不应该存在 pageBottom 回调函数。 </p> </td> 
-   <td colname="col3"> <p>请移除 <span class="codeph">_satellite.pageBottom()</span> 脚本，以启用适当的 Launch 功能。 </p> </td> 
+   <td colname="col2"> <p>The <span class="codeph"> _satellite.pageBottom()</span> callback was found on the page, which should not be the case when Platform Launch is asynchronously deployed. </p> </td> 
+   <td colname="col3"> <p>Remove the<span class="codeph"> _satellite.pageBottom()</span> script to enable proper Platform Launch functionality. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
