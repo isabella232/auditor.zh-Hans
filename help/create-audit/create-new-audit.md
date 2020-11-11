@@ -1,14 +1,14 @@
 ---
-description: 在 Auditor 中新建审核
-seo-description: 在 Auditor 中新建审核
-seo-title: 在 Auditor 中新建审核
-title: 在 Auditor 中新建审核
+description: 在Adobe Experience Platform审计师中创建新审计
+seo-description: 在Adobe Experience Platform审计师中创建新审计
+seo-title: 在Adobe Experience Platform审计师中创建新审计
+title: 在Adobe Experience Platform审计师中创建新审计
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
-translation-type: ht
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: ht
-source-wordcount: '501'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '517'
+ht-degree: 73%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
    名称最多可包含 250 个字符。
 1. （必须）指定起始 URL。
 
-   指定起始 URL 时，必须填写协议。起始 URL 是审核开始爬网的页面。启动后，Auditor 将可以对多达 500 个页面进行爬网，并关注以起始 URL 开头的链接。有关更多信息，请参阅[包含和排除过滤器](../create-audit/filters.md)。起始 URL 最多可包含 250 个字符。
+   指定起始 URL 时，必须填写协议。起始 URL 是审核开始爬网的页面。开始后，Adobe Experience Platform审计师会按照从起始URL开始的链接，搜索最多500页。 有关更多信息，请参阅[包含和排除过滤器](../create-audit/filters.md)。起始 URL 最多可包含 250 个字符。
 
    >[!NOTE]
    >
@@ -43,22 +43,23 @@ ht-degree: 100%
    您可以指定多个电子邮件地址，每个邮件地址之间用逗号分隔。默认情况下，会通知请求者。将实时验证电子邮件地址。如果输入的地址无效，屏幕上则会显示相关通知。
 
    每个电子邮件地址的长度不超过 250 个字符，包括域名后辍在内（例如 .com）。
-1. 指定“Include Filter”（包含过滤器）。
 
-   此字段可包含精确的 URL、部分 URL或正则表达式。使用此字段可指定您希望每个 URL 满足的条件。任何与“Include Filter”（包含过滤器）条件不匹配的爬网 URL，将不会纳入审核结果中。
+1. Specify [!UICONTROL Include Filters].
+
+   此字段可包含精确的 URL、部分 URL或正则表达式。使用此字段可指定您希望每个 URL 满足的条件。Any crawled URLs that do not match the [!UICONTROL Include Filter] criteria are not included in the audit results.
 
    您可以输入希望审核扫描的目录。或者，您可以执行跨域或自我分派审核，其中，您需要在一个域开始审核，并在另一个域结束审核。为此，请键入要遍历的域；对于复杂的 URL 模式，请使用正则表达式。
 
    >[!NOTE]
    >
-   >如果某个页面包含在过滤器中，但该页面未连接到起始 URL，或者 Auditor 在扫描了 500 个页面之后才发现该页面，那么将不会扫描该页面，也不会将其纳入测试结果中。
+   >如果您的过滤器中包含页面，但它未连接到您的起始URL，或者平台审计器在到达该页面前扫描了500页，则不会扫描该页面，测试结果也不会包含该页面。
 
    “Include Filter”（包含过滤器）限制每行最多为 1,000 个字符。
 
    有关更多信息，请参阅[包含列表](../create-audit/filters.md)。
 1. 指定“Exclude Filter”（排除过滤器）。
 
-   排除列表可阻止审核 URL。使用精确的 URL、部分 URL 或正则表达式，就像在“Include List”（包含列表）中一样。
+   The [!UICONTROL Exclude List] prevents URLs from being audited. Use exact URLs, partial URLs, or regular expressions, just as you would in the [!UICONTROL Include List].
 
    一种常见做法是，如果审核涉及用户会话，则排除注销链接（例如：`/logout` 表示包含字符串 `/logout` 的任意 URL)。
 
