@@ -1,23 +1,23 @@
 ---
-description: 此参考可提供有关 Auditor 执行的标记一致性测试的更多信息。
-seo-description: 此参考可提供有关 Auditor 执行的标记一致性测试的更多信息。
+description: 本参考提供了有关Adobe Experience Platform审计师为标签一致性所执行测试的更多信息。
+seo-description: 本参考提供了有关Adobe Experience Platform审计师为标签一致性所执行测试的更多信息。
 seo-title: 标记一致性
 title: 标记一致性
 uuid: 16271dd6-3587-4f33-92f8-54ec4a3d6469
-translation-type: ht
-source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
-workflow-type: ht
-source-wordcount: '113'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 52%
 
 ---
 
 
 # 标记一致性
 
-此参考可提供有关 Auditor 执行的标记一致性测试的更多信息。
+本参考提供了有关Adobe Experience Platform审计师为标签一致性所执行测试的更多信息。
 
-Auditor 的一致性测试旨在查找所有扫描的页面中是否存在不一致的内容。网站上所有页面中的这些值或配置应该是相同的，只有这样，才能确保数据收集是准确的。
+Platform Auditor的一致性测试会检查所有扫描页面的不一致性。 网站上所有页面中的这些值或配置应该是相同的，只有这样，才能确保数据收集是准确的。
 
 <table id="table_4F9ED873BAF741D19BFB0F297B3A1FDB"> 
  <thead> 
