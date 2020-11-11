@@ -4,8 +4,11 @@ seo-description: 报表可显示每个 URL 是通过还是失败。
 seo-title: 下载报表
 title: 下载报表
 uuid: cd5c4db8-e647-4311-9abb-98dd3bbc7ef8
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 90%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 
 可在用户界面的“Scorecard”（评分卡）页面上查看报表。您还可以通过以下方法下载报表：
 
-1. 在 Auditor 列表或评分卡中，单击 **[!UICONTROL Download Report]**（下载报表）。
+1. From the Adobe Experience Platform Auditor list or a scorecard, click **[!UICONTROL Download Report]**.
 
    可以将报表下载为电子表格或 PDF 文件。
 1. 指定是打开或是保存文件。
