@@ -4,11 +4,11 @@ seo-description: 运行测试后，评分卡会显示有关审核的信息。
 seo-title: 评分卡
 title: 评分卡
 uuid: a765cd6a-d3d6-4438-9621-d7899385a518
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '432'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 91%
 
 运行测试后，评分卡会显示有关审核的信息。
 
-在“Adobe Experience Platform审计员”页面上单击审计的名称以视图测试结果。
+单击 Adobe Experience Platform Auditor 页面上的审核名称，可查看测试结果。
 
 ![](assets/report.png)
 
@@ -50,7 +50,7 @@ ht-degree: 91%
 
 评分卡会列出&#x200B;**建议**&#x200B;您修复的所有 1 级到 3 级问题。
 
-单击 **[!UICONTROL Download the Report]**（下载报表），可下载包含审核期间报告的信息在内的文件（ 或 PDF 格式）。[!DNL Excel]
+单击 **[!UICONTROL Download the Report]**（下载报表），可下载包含审核期间报告的信息在内的 [!DNL Excel] 或 PDF 格式的文件。
 
 除了每个类别的得分之外，评分卡还会列出建议或强烈建议的所有修复，以及通过测试的项目。单击每个问题，可在右侧框中查看更多详细信息。再次单击可进一步展开，并查看有关解决问题的建议。下面显示了上述评分卡中与“建议”修复的问题有关的详细信息：
 
@@ -62,4 +62,4 @@ ht-degree: 91%
 
 您可以查看通过或未通过测试的 URL 列表。
 
-From the scorecard, click a test name or the **[!UICONTROL See All]** link under each category heading. 这将允许您查看测试的详细信息。对于每个测试，您可以看到测试说明以及失败和通过测试的所有 URL 列表。此信息也包含在下载的报表中。
+在评分卡中，单击测试名称或每个类别标题下方的 **[!UICONTROL See All]**（查看全部）链接。这将允许您查看测试的详细信息。对于每个测试，您可以看到测试说明以及失败和通过测试的所有 URL 列表。此信息也包含在下载的报表中。
