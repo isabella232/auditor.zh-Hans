@@ -1,19 +1,19 @@
 ---
 description: Adobe Experience Platform Auditor 发行说明
 seo-description: Adobe Experience Platform Auditor 发行说明
-seo-title: Adobe Experience Platform审计员发行说明
-title: Adobe Experience Platform审计员发行说明
+seo-title: Adobe Experience Platform Auditor 发行说明
+title: Adobe Experience Platform Auditor 发行说明
 uuid: 2e1eb2de-f162-45af-a9b0-15dbdac5531d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '458'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Experience Platform Auditor release notes{#auditor-release-notes}
+# Adobe Experience Platform Auditor 发行说明{#auditor-release-notes}
 
 ## 2019 年 2 月 5 日 {#section-f73142fd7c85492a806c7fc19a33a525}
 
@@ -29,7 +29,7 @@ ht-degree: 65%
 
 **新增功能**
 
-您现在可以从Platform Auditor页面、卡视图或尝试创建新审核时取消当前正在运行的审核。
+如今，您可以通过 Platform Auditor 页面、卡片视图，或者在尝试新建审核时，取消当前正在运行的审核。
 
 ## 2018 年 6 月 4 日 {#section-0747f36a1f4f46638b2c6bf182de9864}
 
@@ -59,18 +59,18 @@ ht-degree: 65%
 
 >[!NOTE]
 >
->对Platform Auditor的访问正在以滚动方式授予。 所有客户将在 2018 年 4 月底之前获得访问权限。
+>以滚动方式授予 Platform Auditor 的访问权限。所有客户将在 2018 年 4 月底之前获得访问权限。
 
- Platform Auditor 会对 Adobe Experience Cloud 实施进行评分并提供改进建议。Platform Auditor帮助您从Adobe产品中获得更多价值，无论是单独还是集中。
+Platform Auditor 可以评级 Adobe Experience Cloud 的实施情况并提供改进建议。Platform Auditor 可以帮助您从单个或多个 Adobe 产品中获取更多价值。
 
-通过Platform Auditor，您可以：
+通过使用 Platform Auditor，您可以：
 
 * **扫描**。每次扫描 100 个网页，以审核 Adobe 技术的实施状况。您可以根据需要，使用高级过滤器来包含或排除任意页面。您可以每次运行一项审核，审核数量不受限制。
 
 * **了解**。接收一份报表，该报表会根据标记存在、配置和一致性，对您的 Adobe 实施情况进行评分。
 
-* **改进**。获取有关如何升级实施的各项建议，从而收获投资于 Adobe 的全部价值。Platform Auditor告诉您如何改进实施，指示发现问题的网页，然后指导如何修复它。
+* **改进**。获取有关如何升级实施的各项建议，从而收获投资于 Adobe 的全部价值。Platform Auditor 可以确切地告诉您如何改进某项实施，指出存在问题的网页，并提供修复这些问题的指导。
 
-Platform Auditor允许您对自己的实施进行疑难解答和更正，从而使您能够更好地控制实施标签，从而控制数据。 这可以降低在遇到有关实施标记的问题时联系客户关怀团队的需求。
+Platform Auditor 赋予您诊断和更正贵公司实施情况的能力，让您可以更好地控制实施标记，进而保护贵公司的数据。这可以降低在遇到有关实施标记的问题时联系客户关怀团队的需求。
 
-Platform Auditor是作为Adobe与ObservePoint之间的合作而开发的。 Platform Auditor用户可以使用有限的ObservePoint功能，而无需支付额外费用。 要使用Platform Auditor，您必须选择从ObservePoint进行通信。
+Platform Auditor 是 Adobe 与 ObservePoint 合作开发的成果。Platform Auditor 用户可以使用有限的 ObservePoin 功能而无需支付额外费用。要使用 Platform Auditor，您必须选择加入 ObservePoint 通信。
