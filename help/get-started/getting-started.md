@@ -1,14 +1,14 @@
 ---
-description: 开始使用Adobe Experience Platform审计师
-seo-description: 开始使用Adobe Experience Platform审计师
+description: Adobe Experience Platform Auditor 入门指南
+seo-description: Adobe Experience Platform Auditor 入门指南
 seo-title: 入门指南
 title: 入门指南
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '243'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 64%
 This page is a placeholder for now, we need things like prerequisites, any planning that should be done before using Auditor, initial setup info--that kind of thing.
 -->
 
-The first time you use [!DNL Adobe Experience Platform Auditor], you must complete and accept the [!DNL Platform Auditor] agreement. [!DNL Platform Auditor] 已发展为和之间的合作 [!DNL Adobe] 努力 [!DNL ObservePoint]。 Platform Auditor用户可以使用有限的ObservePoint功能，而无需支付额外费用。 要使用Platform Auditor，您必须选择从ObservePoint进行通信。
+第一次使用 [!DNL Adobe Experience Platform Auditor] 时，您必须填写并接受 [!DNL Platform Auditor] 协议。[!DNL Platform Auditor] 是 [!DNL Adobe] 与 [!DNL ObservePoint] 合作开发的成果。Platform Auditor 用户可以使用有限的 ObservePoin 功能而无需支付额外费用。要使用 Platform Auditor，您必须选择加入 ObservePoint 通信。
 
 ## 运行首次扫描 {#task-b211597afed343cfa238443fcf7c6041}
 
@@ -29,9 +29,9 @@ The first time you use [!DNL Adobe Experience Platform Auditor], you must comple
 
    ![](assets/activate.png)
 
-1. Select **[!UICONTROL Auditor]** and accept the Terms of Use.
+1. 选择 **[!UICONTROL Auditor]** 并接受相关的使用条款。
 
-   “平台审计器”页为您提供以前扫描的仪表板以及运行新扫描的选项。
+   Platform Auditor 页面会为您提供以前扫描的功能板，以及运行新扫描的选项。
 
    ![](assets/home.png)
 
