@@ -1,14 +1,14 @@
 ---
-description: 关于Adobe Experience Platform审计师测试的信息
-seo-description: 关于Adobe Experience Platform审计师测试的信息
+description: 有关 Adobe Experience Platform Auditor 测试的信息
+seo-description: 有关 Adobe Experience Platform Auditor 测试的信息
 seo-title: 测试评分标准 0.0.8
 title: 测试评分标准 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2008'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 90%
 
 ## 警报 {#alerts}
 
-此参考提供了有关测试警报的更多信息，Adobe Experience Platform审计员将显示这些警报。
+此参考可提供有关 Adobe Experience Platform Auditor 显示的测试警报的更多信息。
 
 警报会显示您应该注意的问题，但是不会影响您的得分。
 
@@ -39,7 +39,7 @@ ht-degree: 90%
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - 已实施正确的转化标记</b> </p> <p>权重：0 </p> </td> 
     <td colname="col2"> <p>检查是否使用了正确的转化标记。 </p> <p> <p>警告：使用已弃用的 TubeMogul 转化标记可能会导致数据丢失。 </p> </p> </td> 
-    <td colname="col3"> <p>将您的转化像素升级为新的 Advertising Cloud 纯图像转化标记。 </p> <p>通过Advertising Cloud的Adobe Experience Platform Launch延展，最容易做到这一点。 </p> </td> 
+    <td colname="col3"> <p>将您的转化像素升级为新的 Advertising Cloud 纯图像转化标记。 </p> <p>使用 Adobe Experience Platform Launch 的 Advertising Cloud Extension，可以非常轻松地实现这一目标。 </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - 纯图像标记</b> </p> <p>权重：0 </p> </td> 
@@ -49,12 +49,12 @@ ht-degree: 90%
        <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph"> http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
        <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph"> http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
       </ul> </p> </td> 
-    <td colname="col3"> <p>将您的 Advertising Cloud 像素升级为新的 Advertising Cloud 纯图像标记，这可以确保您能够充分利用 Advertising Cloud 的完整功能。 </p> <p>这可以通过Advertising Cloud平台启动扩展最轻松地实现。 </p> </td> 
+    <td colname="col3"> <p>将您的 Advertising Cloud 像素升级为新的 Advertising Cloud 纯图像标记，这可以确保您能够充分利用 Advertising Cloud 的完整功能。 </p> <p>使用 Platform Launch 的 Advertising Cloud Extension，可以非常轻松地实现这一目标。 </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - 已启用区段像素 DSP 同步</b> </p> <p>权重：0 </p> </td> 
     <td colname="col2"> <p>检查 TubeMogul 区段像素是否包含 DSP 同步设置，并推荐将该设置添加到这个像素中。 </p> <p>DSP 同步设置是根据查询字符串参数的使用情况来确定的，为此 </p> <p>如果标记被触发到<span class="codeph">（"https://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> 或<span class="codeph"> "http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> 或<span class="codeph"> "http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?"</span> </p> <p>并且标记包含 URL 参数 <span class="codeph">"sid="）</span> </p> <p>那么请检查 URL 参数 <span class="codeph">"cs=0"</span> 或 <span class="codeph">"cs=1"</span> 是否存在，如果不存在，推荐将 <span class="codeph">"cs=1"</span> 添加到这些像素中，以便提高受众匹配率。 </p> </td> 
-    <td colname="col3"> <p> 将 URL 参数 <span class="codeph">"cs=1"</span> 添加到您的 Advertising Cloud 像素中，以便可以实现 DSP 同步，从而增加受众匹配率。 </p> <p>这可以通过平台启动的Advertising Cloud扩展最轻松地实现。 </p> </td> 
+    <td colname="col3"> <p> 将 URL 参数 <span class="codeph">"cs=1"</span> 添加到您的 Advertising Cloud 像素中，以便可以实现 DSP 同步，从而增加受众匹配率。 </p> <p>使用 Platform Launch 的 Advertising Cloud Extension，可以非常轻松地实现这一目标。 </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>DTM - 置入 pageBottom 回调函数</b> </p> <p>权重：0 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> 其他信息</a> </p> 
@@ -81,9 +81,9 @@ ht-degree: 90%
 
 ## 配置 {#configuration}
 
-本参考提供了有关Platform Auditor进行配置的测试的更多信息。
+此参考可提供有关 Platform Auditor 执行配置测试的更多信息。
 
-Platform Auditor根据其他规则评估标记并推荐最佳实践。
+Platform Auditor 会根据其他规则和推荐的最佳做法来评估标记。
 
 <table id="table_A8A1FC360482447185C8460A18426638"> 
   <thead> 
@@ -161,9 +161,9 @@ Platform Auditor根据其他规则评估标记并推荐最佳实践。
 
 ## 标记一致性 {#tag-consistency}
 
-本参考提供了有关Platform Auditor执行的标记一致性测试的更多信息。
+此参考可提供有关 Platform Auditor 执行标记一致性测试的更多信息。
 
-Platform Auditor会评估各个URL中的标记是否一致。
+Platform Auditor 会评估标记在各个 URL 中是否一致。
 
 <table id="table_4F9ED873BAF741D19BFB0F297B3A1FDB"> 
   <thead> 
@@ -186,9 +186,9 @@ Platform Auditor会评估各个URL中的标记是否一致。
 
 ## 标记存在 {#tag-presence}
 
-本参考提供了有关Platform Auditor执行的标记存在测试的更多信息。
+此参考可提供有关 Platform Auditor 执行的标记存在测试的更多信息。
 
-Platform Auditor会评估标记是否存在，以及它是否在页面代码中的正确位置，等等。
+Platform Auditor 会评估标记是否存在，以及标记在页面代码中的位置是否正确，等等。
 
 <table id="table_98A2E3F7B3154EEFA76D0CAE2FE97CAB"> 
   <thead> 
@@ -202,12 +202,12 @@ Platform Auditor会评估标记是否存在，以及它是否在页面代码中�
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - 代码存在</b> </p> <p>权重：5 </p> </td> 
     <td colname="col2"> <p> DOM 中不提供 Advertising Cloud 标记。 </p> </td> 
-    <td colname="col3"> <p>使用面向平台启动的Advertising Cloud扩展实施Advertising Cloud标签。 </p> </td> 
+    <td colname="col3"> <p>通过 Platform Launch 的 Advertising Cloud Extension 实施 Advertising Cloud 标记。 </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - 已实施区段像素</b> </p> <p>权重：5 </p> </td> 
     <td colname="col2"> <p> 将您的 Advertising Cloud 区段像素升级为新的 Advertising Cloud 纯图像标记。采用已弃用的 AMO 区段标记可能会导致数据丢失。 </p> </td> 
-    <td colname="col3"> <p>使用面向Platform Launch的Advertising Cloud扩展实施Advertising Cloud细分像素。 </p> </td> 
+    <td colname="col3"> <p>通过 Platform Launch 的 Advertising Cloud Extension 实施 Advertising Cloud 区段像素。 </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Analytics - 在 DOM 中加载</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/home.html" format="https" scope="external"> 其他信息</a> </p> </td> 
