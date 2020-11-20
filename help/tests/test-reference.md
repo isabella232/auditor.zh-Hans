@@ -1,21 +1,21 @@
 ---
-description: 本参考资料提供了有关Adobe Experience Platform审计师执行的测试的更多信息。
-seo-description: 本参考资料提供了有关Adobe Experience Platform审计师执行的测试的更多信息。
+description: 此参考可提供有关 Adobe Experience Platform Auditor 执行测试的更多信息。
+seo-description: 此参考可提供有关 Adobe Experience Platform Auditor 执行测试的更多信息。
 seo-title: 测试参考
 title: 测试参考
 uuid: f1d0769e-a2bd-4cec-acd1-146793644895
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 
 # 测试参考{#test-reference}
 
-本参考资料提供了有关Adobe Experience Platform审计师执行的测试的更多信息。
+此参考可提供有关 Adobe Experience Platform Auditor 执行测试的更多信息。
 
 **当前测试评分标准版本：** 1.0.5
 
@@ -34,7 +34,7 @@ ht-degree: 84%
 
 **建议**&#x200B;修复任何 1 级到 3 级的结果。
 
-## Which Adobe technologies does Platform Auditor grade? {#section-52833b71c05448aaae508e6070a387f5}
+## Platform Auditor 对哪些 Adobe 技术进行评级？{#section-52833b71c05448aaae508e6070a387f5}
 
 * Advertising Cloud DSP
 * Advertising Cloud Search
