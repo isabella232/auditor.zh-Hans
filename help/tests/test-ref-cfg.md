@@ -1,23 +1,23 @@
 ---
-description: 本参考提供了有关Adobe Experience Platform审计员进行配置的测试的更多信息。
-seo-description: 本参考提供了有关Adobe Experience Platform审计员进行配置的测试的更多信息。
+description: 此参考可提供有关 Adobe Experience Platform Auditor 执行配置测试的更多信息。
+seo-description: 此参考可提供有关 Adobe Experience Platform Auditor 执行配置测试的更多信息。
 seo-title: 配置
 title: 配置
 uuid: d40d815c-edfe-48b9-921f-cea1b0b54a0a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '846'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
 # 配置
 
-本参考提供了有关Adobe Experience Platform审计员进行配置的测试的更多信息。
+此参考可提供有关 Adobe Experience Platform Auditor 执行配置测试的更多信息。
 
-配置测试会扫描实施中的特定设置、值或潜在冲突。Platform Auditor根据其他规则评估标记并推荐最佳实践。
+配置测试会扫描实施中的特定设置、值，或者有无潜在冲突。Platform Auditor 会根据其他规则和推荐的最佳做法来评估标记。
 
 <table id="table_A8A1FC360482447185C8460A18426638"> 
  <thead> 
@@ -97,8 +97,8 @@ ht-degree: 89%
     <!--
       1.0.1 
     --> <p><b>Launch - 最新版本</b> </p> <p>权重：2 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> 其他信息</a> </p> </td> 
-   <td colname="col2"> <p>这些页面未运行最新版本的平台启动代码库(Turbrie)。 为了利用性能改进并提供最新功能，我们会不断地更新和调整旨在支持 Experience Cloud 技术的代码库。 </p> </td> 
-   <td colname="col3"> <p> 通过重建和发布平台启动库更新平台启动库。 </p> </td> 
+   <td colname="col2"> <p>这些页面未运行最新版本的 Platform Launch 代码库 (Turbrie)。为了利用性能改进并提供最新功能，我们会不断地更新和调整旨在支持 Experience Cloud 技术的代码库。 </p> </td> 
+   <td colname="col3"> <p> 通过重建和发布 Platform Launch 库来更新 Platform Launch 库。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
