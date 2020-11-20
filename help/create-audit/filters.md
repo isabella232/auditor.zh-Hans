@@ -4,11 +4,11 @@ seo-description: “Include Filter”（包含过滤器）会限制审核可以�
 seo-title: 包含和排除过滤器
 title: 包含和排除过滤器
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '808'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Content from ObservePoint (https://help.observepoint.com/articles/2872121-includ
 
 通过应用“Include Filter”（包含过滤器）、“Exclude Filter”（排除过滤器）或二者的组合，可以为审核提供有关能够爬网哪些链接的操作说明。
 
-Any item in the [!UICONTROL Include Filters] field restricts the scan to only the pages that match that item. Any item in an [!UICONTROL Exclude Filters] field prevents any pages that match that item from being scanned.
+[!UICONTROL Include Filters]（包含过滤器）字段中的任何项目，可将扫描限制为仅扫描与该项目匹配的页面。[!UICONTROL Exclude Filters]（排除过滤器）字段中的任何项目，可阻止扫描任何与该项目匹配的页面。
 
 “Include Filter”（包含过滤器）和“Exclude Filter”（排除过滤器）可以是与有效页面匹配的完整 URL、部分 URL 或正则表达式。
 
@@ -53,7 +53,7 @@ Any item in the [!UICONTROL Include Filters] field restricts the scan to only th
 
 ## 起始 URL {#section-ccb46abcd96f4a8ab171245015d2b724}
 
-Adobe Experience Platform审计师需要为起始URL提供一个页面。 在获得访问方面，起始 URL 始终先于所有其他 URL。任何从起始页面中发现的链接都有资格获得访问，但是必须以遵循“Include Filter”（包含过滤器）和“Exclude Filter”（排除过滤器）为条件。如果“Exclude”（排除）项目与起始 URL 匹配，则忽略该项。
+Adobe Experience Platform Auditor 要求为起始 URL 提供一个页面。在获得访问方面，起始 URL 始终先于所有其他 URL。任何从起始页面中发现的链接都有资格获得访问，但是必须以遵循“Include Filter”（包含过滤器）和“Exclude Filter”（排除过滤器）为条件。如果“Exclude”（排除）项目与起始 URL 匹配，则忽略该项。
 
 ## “Include Filter”（包含过滤器） {#section-7626060a56a24b658f8c05f031ac3f5f}
 
@@ -76,9 +76,9 @@ Adobe Experience Platform审计师需要为起始URL提供一个页面。 在获
 
 该过滤器允许在起始 URL 页面上找到的任何链接，都可以得到访问。它与起始 URL 中任意子域上的任何页面相匹配。
 
-使用默认的“Include Filter”（包含过滤器），可以向审核提供广泛的爬网范围。要在某些部分或页面中进入主页，请在此框中添加过滤器，以便为审核提供特定指示。在这种情况下，将默认值替换为您希望审核扫描的目录。您还可以使用“包括过滤器”执行跨域审计，您需要在一个域上开始审计并在另一个域上结束审计。 为此，请键入要遍历的域。无论如何，要找到任何“包括”过滤器URL，必须在已审核的页面上发现它们。
+使用默认的“Include Filter”（包含过滤器），可以向审核提供广泛的爬网范围。要在某些部分或页面中进入主页，请在此框中添加过滤器，以便为审核提供特定指示。在这种情况下，将默认值替换为您希望审核扫描的目录。此外，您还可以使用“Include Filter”（包含过滤器）来执行跨域审核，其中，您需要在一个域上开始审核，并在另一个域上结束审核。为此，应当键入要遍历的域。无论如何，必须要在审核的页面上发现“Include Filter”（包含过滤器）URL，才能找到它们。
 
-“包括”过滤器可以包含精确的URL、部分URL或常规表达式。 例如，如果“起始 URL”是 [!DNL http://mysite.com]，则默认情况下可以扫描以下页面（请注意粗体字符）：
+“Include Filter”（包含过滤器）可以包含精确的 URL、部分 URL 或正则表达式。例如，如果“起始 URL”是 [!DNL http://mysite.com]，则默认情况下可以扫描以下页面（请注意粗体字符）：
 
 ```html
 http://mysite.com
@@ -100,7 +100,7 @@ http://
 
 ## 测试过滤器和 URL {#section-3cfa125b1756411395a64701e128efa0}
 
-您可以在Platform Auditor中测试过滤器和URL。
+您可以在 Platform Auditor 中测试过滤器和 URL。
 
 在创建审核时，单击 **[!UICONTROL Test Advanced Filters]**（测试高级过滤器）。输入过滤器和 URL，然后单击 **[!UICONTROL Apply]**（应用）。
 
