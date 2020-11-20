@@ -1,14 +1,14 @@
 ---
-description: 关于Adobe Experience Platform审计师测试的信息
-seo-description: 关于Adobe Experience Platform审计师测试的信息
+description: 有关 Adobe Experience Platform Auditor 测试的信息
+seo-description: 有关 Adobe Experience Platform Auditor 测试的信息
 seo-title: 测试评分标准 1.0.1
 title: 测试评分标准 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2727'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 83%
 
 ## 警报 {#alerts}
 
-此参考提供了有关测试警报的更多信息，Adobe Experience Platform审计员将显示这些警报。
+此参考可提供有关 Adobe Experience Platform Auditor 显示的测试警报的更多信息。
 
 警报会显示您应该注意的问题，但是不会影响您的得分。这些是推荐的最佳做法，在某些情况下可能不适用于您的实施。
 
@@ -38,7 +38,7 @@ ht-degree: 83%
       1.0.1 
     --> <p><b>Advertising Cloud - 已实施正确的转化标记</b> </p> <p>权重：0 </p> </td> 
    <td colname="col2"> <p>检查是否使用了正确的转化标记。 </p> <p> <p>警告：使用已弃用的 TubeMogul 转化标记可能会导致数据丢失。 </p> </p> </td> 
-   <td colname="col3"> <p>将您的转化像素升级为新的 Advertising Cloud 纯图像转化标记。 </p> <p>通过Advertising Cloud的Adobe Experience Platform Launch延展，最容易做到这一点。 </p> </td> 
+   <td colname="col3"> <p>将您的转化像素升级为新的 Advertising Cloud 纯图像转化标记。 </p> <p>使用 Adobe Experience Platform Launch 的 Advertising Cloud Extension，可以非常轻松地实现这一目标。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -46,7 +46,7 @@ ht-degree: 83%
       1.0.1 
     --> <p><b>Advertising Cloud - 已使用正确的 JS 标记</b> </p> <p>权重：0 </p> </td> 
    <td colname="col2"> <p>Advertising Cloud 应使用最新的 JavaScript 标记。 </p> </td> 
-   <td colname="col3"> <p>将 Advertising Cloud JavaScript 升级到最新版本。使用已弃用的 JavaScript 版本可能会导致功能丧失。 </p> <p>通过使用Advertising Cloud平台启动扩展，可以更轻松地实现这一点。 </p> </td> 
+   <td colname="col3"> <p>将 Advertising Cloud JavaScript 升级到最新版本。使用已弃用的 JavaScript 版本可能会导致功能丧失。 </p> <p>通过使用 Platform Launch 的 Advertising Cloud Extension，可以更轻松地实现这一目标。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -59,7 +59,7 @@ ht-degree: 83%
       <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph"> http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
       <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph"> http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
      </ul> </p> </td> 
-   <td colname="col3"> <p>将您的 Advertising Cloud 像素升级为新的 Advertising Cloud 纯图像标记，这可以确保您能够充分利用 Advertising Cloud 的完整功能。 </p> <p>这可以通过Advertising Cloud平台启动扩展最轻松地实现。 </p> </td> 
+   <td colname="col3"> <p>将您的 Advertising Cloud 像素升级为新的 Advertising Cloud 纯图像标记，这可以确保您能够充分利用 Advertising Cloud 的完整功能。 </p> <p>使用 Platform Launch 的 Advertising Cloud Extension，可以非常轻松地实现这一目标。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -67,7 +67,7 @@ ht-degree: 83%
       1.0.1 
     --> <p><b>Advertising Cloud - 已启用区段像素 DSP 同步</b> </p> <p>权重：0 </p> </td> 
    <td colname="col2"> <p>检查 TubeMogul 区段像素是否包含 DSP 同步设置，并推荐将该设置添加到这个像素中。 </p> <p>DSP 同步设置是根据查询字符串参数的使用情况来确定的，为此 </p> <p>如果标记被触发到<span class="codeph">（"https://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> 或<span class="codeph"> "http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> 或<span class="codeph"> "http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?"</span> </p> <p>并且标记包含 URL 参数 <span class="codeph">"sid="）</span> </p> <p>那么请检查 URL 参数 <span class="codeph">"cs=0"</span> 或 <span class="codeph">"cs=1"</span> 是否存在，如果不存在，推荐将 <span class="codeph">"cs=1"</span> 添加到这些像素中，以便提高受众匹配率。 </p> </td> 
-   <td colname="col3"> <p> 将 URL 参数 <span class="codeph">"cs=1"</span> 添加到您的 Advertising Cloud 像素中，以便可以实现 DSP 同步，从而增加受众匹配率。 </p> <p>这可以通过平台启动的Advertising Cloud扩展最轻松地实现。 </p> </td> 
+   <td colname="col3"> <p> 将 URL 参数 <span class="codeph">"cs=1"</span> 添加到您的 Advertising Cloud 像素中，以便可以实现 DSP 同步，从而增加受众匹配率。 </p> <p>使用 Platform Launch 的 Advertising Cloud Extension，可以非常轻松地实现这一目标。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -104,7 +104,7 @@ ht-degree: 83%
     <!--
       TE48c499b022f545c5bccc6f8bde169685 
     --> </td> 
-   <td colname="col2"> <p>Platform Launch should have a <span class="codeph"> pageBottom </span>callback function defined last in the body of the page if synchronously deployed </p> <p> <p>注意：最佳做法是将该标记作为 <span class="codeph">&lt;body&gt;</span> 中的<i>最后一个</i>标记。如果在 <span class="codeph">&lt;body&gt;</span> 标记中找到了该函数，则表明存在正常运行的机率，然而由于这不是最佳的做法，所以可能会无法正确运行，或者会出现意外或不希望的结果。 </p> </p> </td> 
+   <td colname="col2"> <p>如果要实现同步部署，Platform Launch 则应该在页面正文的最后，定义一个 <span class="codeph">pageBottom</span> 回调函数。 </p> <p> <p>注意：最佳做法是将该标记作为 <span class="codeph">&lt;body&gt;</span> 中的<i>最后一个</i>标记。如果在 <span class="codeph">&lt;body&gt;</span> 标记中找到了该函数，则表明存在正常运行的机率，然而由于这不是最佳的做法，所以可能会无法正确运行，或者会出现意外或不希望的结果。 </p> </p> </td> 
    <td colname="col3"> <p>为了确保 DTM 正常运行，请在紧接着闭合的 <span class="codeph">&lt;/body&gt;</span> 标记之前添加内联脚本。 </p> </td> 
   </tr> 
   <tr> 
@@ -112,16 +112,16 @@ ht-degree: 83%
     <!--
       1.0.1 
     --> <p><b>Launch - 自托管</b> </p> <p>权重：0 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> 其他信息</a> </p> </td> 
-   <td colname="col2"> <p>The Platform Launch library is being hosted on Adobe's Akamai instance at <span class="filepath"> assets.adobedtm.com</span>. </p> <p>自托管是加载平台启动的推荐方法，因为它通过缓存控制、减少第三方脚本依赖关系和增强对发布过程的控制提供对网站性能的更大控制。 平台启动库可通过您自己的Web托管或CDN进行托管和管理。 </p> </td> 
-   <td colname="col3"> <p>尽管通过Akamai CDN进行平台启动托管在大多数情况下都有效，但建议将自托管作为提高页面性能的第一步。 </p> </td> 
+   <td colname="col2"> <p>将 Platform Launch 库托管在 Adobe 位于 <span class="filepath">assets.adobedtm.com</span> 的 Akamai 实例上。 </p> <p>推荐采用自托管方法来加载 Platform Launch，因为这种方法可通过缓存控制、减少第三方脚本依赖项以及增强对发布过程的控制，更好地控制网站的性能。您可以通过自己的 Web 托管或 CDN 来托管并管理 Platform Launch 库。 </p> </td> 
+   <td colname="col3"> <p>尽管通过 Akamai CDN 来托管 Platform Launch 的方法适用于大多数情况，但是，推荐实施自托管方法以作为提升页面性能的第一步。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
     --> <p><b>Launch - 应当异步部署</b> </p> <p>权重：0 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> 其他信息</a> </p> </td> 
-   <td colname="col2"> <p>平台启动应进行异步部署以获得最佳性能。 </p> </td> 
-   <td colname="col3"> <p>将async参数包含在内联脚本中，以确保正确的异步平台启动功能 </p> </td> 
+   <td colname="col2"> <p>为了优化性能，应当异步部署 Platform Launch。 </p> </td> 
+   <td colname="col3"> <p>将异步参数纳入内联脚本，以确保正确实施 Platform Launch 的异步部署。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -136,9 +136,9 @@ ht-degree: 83%
 
 ## 配置 {#configuration}
 
-本参考提供了有关Platform Auditor进行配置的测试的更多信息。
+此参考可提供有关 Platform Auditor 执行配置测试的更多信息。
 
-配置测试会扫描实施中的特定设置、值或潜在冲突。Platform Auditor根据其他规则评估标记并推荐最佳实践。
+配置测试会扫描实施中的特定设置、值，或者有无潜在冲突。Platform Auditor 会根据其他规则和推荐的最佳做法来评估标记。
 
 <table id="table_A8A1FC360482447185C8460A18426638"> 
  <thead> 
@@ -218,8 +218,8 @@ ht-degree: 83%
     <!--
       1.0.1 
     --> <p><b>Launch - 最新版本</b> </p> <p>权重：2 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> 其他信息</a> </p> </td> 
-   <td colname="col2"> <p>这些页面未运行最新版本的平台启动代码库(Turbrie)。 为了利用性能改进并提供最新功能，我们会不断地更新和调整旨在支持 Experience Cloud 技术的代码库。 </p> </td> 
-   <td colname="col3"> <p> 通过重建和发布平台启动库更新平台启动库。 </p> </td> 
+   <td colname="col2"> <p>这些页面未运行最新版本的 Platform Launch 代码库 (Turbrie)。为了利用性能改进并提供最新功能，我们会不断地更新和调整旨在支持 Experience Cloud 技术的代码库。 </p> </td> 
+   <td colname="col3"> <p> 通过重建和发布 Platform Launch 库来更新 Platform Launch 库。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -250,9 +250,9 @@ ht-degree: 83%
 
 ## 标记一致性 {#tag-consistency}
 
-本参考提供了有关Platform Auditor执行的标记一致性测试的更多信息。
+此参考可提供有关 Platform Auditor 执行标记一致性测试的更多信息。
 
-Platform Auditor的一致性测试会检查所有扫描页面的不一致性。 网站上所有页面中的这些值或配置应该是相同的，只有这样，才能确保数据收集是准确的。
+Platform Auditor 的一致性测试旨在查找所有扫描的页面中是否存在不一致的内容。网站上所有页面中的这些值或配置应该是相同的，只有这样，才能确保数据收集是准确的。
 
 <table id="table_4F9ED873BAF741D19BFB0F297B3A1FDB"> 
  <thead> 
@@ -276,9 +276,9 @@ Platform Auditor的一致性测试会检查所有扫描页面的不一致性。 
 
 ## 标记存在 {#tag-presence}
 
-本参考提供了有关Platform Auditor执行的标记存在测试的更多信息。
+此参考可提供有关 Platform Auditor 执行的标记存在测试的更多信息。
 
-Platform Auditor会评估标记是否存在，以及它是否在页面代码中的正确位置。
+Platform Auditor 会评估标记是否存在，以及标记在页面代码中的位置是否正确。
 
 <table id="table_98A2E3F7B3154EEFA76D0CAE2FE97CAB"> 
  <thead> 
@@ -295,7 +295,7 @@ Platform Auditor会评估标记是否存在，以及它是否在页面代码中�
       1.0.1 
     --> <p><b>Advertising Cloud - 代码存在</b> </p> <p>权重：5 </p> </td> 
    <td colname="col2"> <p> DOM 中不提供 Advertising Cloud 标记。 </p> </td> 
-   <td colname="col3"> <p>使用面向平台启动的Advertising Cloud扩展实施Advertising Cloud标签。 </p> </td> 
+   <td colname="col3"> <p>通过 Platform Launch 的 Advertising Cloud Extension 实施 Advertising Cloud 标记。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -303,7 +303,7 @@ Platform Auditor会评估标记是否存在，以及它是否在页面代码中�
       1.0.1 
     --> <p><b>Advertising Cloud - 已实施区段像素</b> </p> <p>权重：5 </p> </td> 
    <td colname="col2"> <p> 将您的 Advertising Cloud 区段像素升级为新的 Advertising Cloud 纯图像标记。采用已弃用的 AMO 区段标记可能会导致数据丢失。 </p> </td> 
-   <td colname="col3"> <p>使用面向Platform Launch的Advertising Cloud扩展实施Advertising Cloud细分像素。 </p> </td> 
+   <td colname="col3"> <p>通过 Platform Launch 的 Advertising Cloud Extension 实施 Advertising Cloud 区段像素。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -379,14 +379,14 @@ Platform Auditor会评估标记是否存在，以及它是否在页面代码中�
       1.0.1 
     --> <p><b> Launch - 已加载库</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> 其他信息</a> </p> </td> 
    <td colname="col2"> <p> 在 DOM 中未找到全局 _satellite 对象。未安装或无法执行 Launch。 </p> </td> 
-   <td colname="col3"> <p>验证平台启动库是否已在页面上实现，且未被后续脚本活动阻止。 </p> </td> 
+   <td colname="col3"> <p>验证是否已在页面上实施 Platform Launch 库，且没有遭到后续脚本活动的阻止。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
     --> <p><b>Launch - 没有多个嵌入脚本</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> 其他信息</a> </p> </td> 
-   <td colname="col2"> <p>页面上不应加载多个嵌入脚本。生产站点只应加载一个平台启动库。 </p> </td> 
+   <td colname="col2"> <p>页面上不应加载多个嵌入脚本。生产站点应当只加载一个 Platform Launch 库。 </p> </td> 
    <td colname="col3"> <p>验证页面上是否只加载了生产库。 </p> </td> 
   </tr> 
   <tr> 
@@ -394,16 +394,16 @@ Platform Auditor会评估标记是否存在，以及它是否在页面代码中�
     <!--
       1.0.1 
     --> <p><b>Launch - &lt;body&gt; 中存在 pageBottom 回调函数</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> 其他信息</a> </p> </td> 
-   <td colname="col2"> <p> The <span class="codeph"> _satellite.pageBottom()</span> callback was not found within the <span class="codeph"> &lt;body&gt;</span> of the page, which is required by Platform Launch. </p> <p>如果根本在页面上找不到 <span class="codeph">pageBottom</span> 调用，或者如果它位于 <span class="codeph">&lt;head&gt;</span> 标记中（或其他一些意外的位置），测试则会失败。只有在从 <span class="codeph">&lt;body&gt;</span> 标记中找到 <span class="codeph">pageBottom</span> 的情况下，测试才会通过。如果页面上根本不存在这项调用，则无法正常运转，而且另外两个 <span class="codeph">pageBottom</span> 测试也将失败。 </p> </td> 
-   <td colname="col3"> <p>Add the inline script immediately prior to the closing <span class="codeph"> &lt;/body&gt;</span> tag to ensure proper Platform Launch functionality. </p> </td> 
+   <td colname="col2"> <p> 在页面的 <span class="codeph">&lt;body&gt;</span> 标记中没有找到 <span class="codeph">_satellite.pageBottom()</span> 回调函数，它是 Platform Launch 的必需函数。 </p> <p>如果根本在页面上找不到 <span class="codeph">pageBottom</span> 调用，或者如果它位于 <span class="codeph">&lt;head&gt;</span> 标记中（或其他一些意外的位置），测试则会失败。只有在从 <span class="codeph">&lt;body&gt;</span> 标记中找到 <span class="codeph">pageBottom</span> 的情况下，测试才会通过。如果页面上根本不存在这项调用，则无法正常运转，而且另外两个 <span class="codeph">pageBottom</span> 测试也将失败。 </p> </td> 
+   <td colname="col3"> <p>为了确保 Platform Launch 正常运行，应在紧接着闭合的 <span class="codeph">&lt;/body&gt;</span> 标记之前添加内联脚本。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
     --> <p><b>Launch - 异步部署时，不应该存在 pageBottom 回调函数</b> </p> <p>权重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hans/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> 其他信息</a> </p> </td> 
-   <td colname="col2"> <p>The <span class="codeph"> _satellite.pageBottom()</span> callback was found on the page, which should not be the case when Platform Launch is asynchronously deployed. </p> </td> 
-   <td colname="col3"> <p>Remove the<span class="codeph"> _satellite.pageBottom()</span> script to enable proper Platform Launch functionality. </p> </td> 
+   <td colname="col2"> <p>在页面上找到 <span class="codeph">_satellite.pageBottom()</span> 回调函数，异步部署 Platform Launch 时，不应该存在 pageBottom 回调函数。 </p> </td> 
+   <td colname="col3"> <p>请移除 <span class="codeph">_satellite.pageBottom()</span> 脚本，以启用适当的 Platform Launch 功能。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
