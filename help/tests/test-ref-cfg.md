@@ -4,9 +4,9 @@ seo-description: 此参考可提供有关 Adobe Experience Platform Auditor 执�
 seo-title: 配置
 title: 配置
 uuid: d40d815c-edfe-48b9-921f-cea1b0b54a0a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 100%
 
