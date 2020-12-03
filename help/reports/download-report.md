@@ -4,9 +4,9 @@ seo-description: 报表可显示每个 URL 是通过还是失败。
 seo-title: 下载报表
 title: 下载报表
 uuid: cd5c4db8-e647-4311-9abb-98dd3bbc7ef8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 100%
 
