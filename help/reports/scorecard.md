@@ -4,9 +4,9 @@ seo-description: 运行测试后，评分卡会显示有关审核的信息。
 seo-title: 评分卡
 title: 评分卡
 uuid: a765cd6a-d3d6-4438-9621-d7899385a518
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 100%
 
