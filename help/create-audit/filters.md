@@ -4,9 +4,9 @@ seo-description: “Include Filter”（包含过滤器）会限制审核可以�
 seo-title: 包含和排除过滤器
 title: 包含和排除过滤器
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 100%
 
