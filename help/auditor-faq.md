@@ -4,9 +4,9 @@ seo-description: 有关 Adobe Experience Platform Auditor 的常见问题和解�
 seo-title: Adobe Experience Platform Auditor 常见问题解答
 title: Adobe Experience Platform Auditor 常见问题解答
 uuid: 4db0781a-b288-4ec2-97ff-410a8241a61d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 100%
 
