@@ -4,9 +4,9 @@ seo-description: 此参考可提供有关 Adobe Experience Platform Auditor 执�
 seo-title: 标记一致性
 title: 标记一致性
 uuid: 16271dd6-3587-4f33-92f8-54ec4a3d6469
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 100%
 
