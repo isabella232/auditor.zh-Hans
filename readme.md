@@ -1,16 +1,12 @@
 ---
-source-git-commit: 11340be8ca4288cbe4c6129f44a05677cfd3112e
-workflow-type: ht
-translation-type: ht
-source-wordcount: '509'
+source-git-commit: 58d87e06bc7126ba799d6063278ebc45f562928f
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '427'
 ht-degree: 100%
 
 ---
 # 贡献文章
-
-| EXL-PR | EXL | 预览 | 激活 | 发布日期 | 帮助 |
-|--- |--- |--- |--- |--- |--- |
-| [![生成状态](https://docs.ci.corp.adobe.com/view/exl-pr/job/auditor.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/auditor.en_pr-exl/lastBuild/) | [![生成状态](https://docs.ci.corp.adobe.com/view/exl-pr/job/auditor.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/auditor.en_exl/lastBuild/lastBuild) | [预览 URL](https://experienceleague.corp.adobe.com/docs/auditor/using/overview.html?lang=zh-cn) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [实时 URL](https://experienceleague.adobe.com/docs/auditor/using/overview.html?lang=zh-cn) | [创作指南](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=zh-cn) |
 
 我们欢迎社区成员以及文档团队以外的 Adobe 员工积极贡献文章。
 
