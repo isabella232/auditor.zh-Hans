@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: auditor
 sub-product: Adobe Experience Platform Auditor
 audience: end-user
@@ -8,7 +8,7 @@ user-guide-description: 生成一份报表，以评级您的 Adobe Experience Cl
 breadcrumb-title: Platform Auditor 指南
 breadcrumb-url: /docs/auditor/using/overview.html
 translation-type: tm+mt
-source-git-commit: c5f155d859486320aeec497946e35b7c06a3de7d
+source-git-commit: 5dbbd05323172302682643de2e8ea867e2e186c6
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 100%
