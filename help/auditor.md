@@ -1,13 +1,12 @@
 ---
 description: Adobe Experience Platform Auditor 是一项 Adobe Experience Platform 服务，这项服务是 Adobe 和精通于验证数字实施的 ObservePoint 公司共同开发的。
-seo-description: Adobe Experience Platform Auditor 是一项 Adobe Experience Platform 服务，这项服务是 Adobe 和精通于验证数字实施的 ObservePoint 公司共同开发的。
+seo-description: Adobe Experience Platform Auditor is a service of the Adobe Experience Platform that was co-developed with ObservePoint, experts in validating digital implementations.
 seo-title: Adobe Experience Platform Auditor
 title: Adobe Experience Platform Auditor
 uuid: 346132cb-d78d-4573-8edd-dbaa4c3bb05d
-translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '399'
 ht-degree: 100%
 
 ---
@@ -39,6 +38,6 @@ Platform Auditor 是 Adobe 与 ObservePoint 合作开发的成果。Platform Aud
 
 如果您要获得入门指南帮助、提出问题，或希望就未来的增强功能提出建议或投票，请访问 [Platform Auditor 社区论坛](https://forums.adobe.com/community/experience-cloud/platform/core-services/activation-service/auditor)，以联系有关专家和 Adobe 团队。
 
-## 产品版本信息 {#section-be3e331a123d40f185aa59f23f69355e}
+## 发行版信息 {#section-be3e331a123d40f185aa59f23f69355e}
 
 有关最新版本的信息，请参阅 [Platform Auditor 发行说明](release-notes.md)。

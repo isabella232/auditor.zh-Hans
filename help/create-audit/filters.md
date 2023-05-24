@@ -1,17 +1,16 @@
 ---
 description: “Include Filter”（包含过滤器）会限制审核可以从起始 URL 爬网的链接。“Exclude Filter”（排除过滤器）会阻止审核爬网链接。
-seo-description: “Include Filter”（包含过滤器）会限制审核可以从起始 URL 爬网的链接。“Exclude Filter”（排除过滤器）会阻止审核爬网链接。
-seo-title: 包含和排除过滤器
+seo-description: Include filters restrict what links an audit can crawl from the Starting URL. Exclude filters prevent an audit from crawling links.
+seo-title: Include and Exclude filters
 title: 包含和排除过滤器
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: d6bb1191-62ce-4292-913d-8c42b9136626
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '783'
 ht-degree: 100%
 
 ---
-
 
 # 包含和排除过滤器{#include-and-exclude-filters}
 
@@ -55,7 +54,7 @@ Content from ObservePoint (https://help.observepoint.com/articles/2872121-includ
 
 Adobe Experience Platform Auditor 要求为起始 URL 提供一个页面。在获得访问方面，起始 URL 始终先于所有其他 URL。任何从起始页面中发现的链接都有资格获得访问，但是必须以遵循“Include Filter”（包含过滤器）和“Exclude Filter”（排除过滤器）为条件。如果“Exclude”（排除）项目与起始 URL 匹配，则忽略该项。
 
-## “Include Filter”（包含过滤器） {#section-7626060a56a24b658f8c05f031ac3f5f}
+## “Include Filter”（包含过滤器）  {#section-7626060a56a24b658f8c05f031ac3f5f}
 
 “Include Filter”（包含过滤器）可以限制审核期间可供扫描的链接。“Include Filter”（包含过滤器）可以是：
 
@@ -94,7 +93,7 @@ http://
 
 对于复杂的 URL 模式，请使用 [ObservePoint 的正则表达式测试程序](https://regex.observepoint.com/)。
 
-## “Exclude Filter”（排除过滤器）{#section-00aa5e10c878473b91ba0844bebe7ca9}
+## “Exclude Filter”（排除过滤器） {#section-00aa5e10c878473b91ba0844bebe7ca9}
 
 “Exclude Filter”（排除过滤器）会阻止审核 URL。您可以使用精确的 URL、部分 URL 或正则表达式。与“Exclude Filter”（排除过滤器）中的项目匹配的任何 URL，均不会得到访问。如果“Exclude Filter”（排除过滤器）中包含起始 URL，则不排除该 URL。审核始终会扫描起始 URL。
 

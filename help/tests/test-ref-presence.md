@@ -1,17 +1,16 @@
 ---
 description: 此参考可提供有关 Adobe Experience Platform Auditor 执行的标记存在测试的更多信息。
-seo-description: 此参考可提供有关 Adobe Experience Platform Auditor 执行的标记存在测试的更多信息。
-seo-title: 标记存在
+seo-description: This reference provides more information about the tests Adobe Experience Platform Auditor performs for tag presence.
+seo-title: Tag presence
 title: 标记存在
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: a6ac4d95-2f96-4abb-b39b-4dd0d8df5fe8
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '940'
 ht-degree: 100%
 
 ---
-
 
 # 标记存在
 

@@ -1,17 +1,16 @@
 ---
 description: 此参考可提供有关 Adobe Experience Platform Auditor 执行测试的更多信息。
-seo-description: 此参考可提供有关 Adobe Experience Platform Auditor 执行测试的更多信息。
-seo-title: 测试参考
+seo-description: This reference provides more information about the tests Adobe Experience Platform Auditor performs.
+seo-title: Test reference
 title: 测试参考
 uuid: f1d0769e-a2bd-4cec-acd1-146793644895
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: b368bf43-2007-4f98-a965-ed8fc07c0fdf
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '278'
 ht-degree: 100%
 
 ---
-
 
 # 测试参考{#test-reference}
 
@@ -34,7 +33,7 @@ ht-degree: 100%
 
 **建议**&#x200B;修复任何 1 级到 3 级的结果。
 
-## Platform Auditor 对哪些 Adobe 技术进行评级？{#section-52833b71c05448aaae508e6070a387f5}
+## Platform Auditor 对哪些 Adobe 技术进行评级？ {#section-52833b71c05448aaae508e6070a387f5}
 
 * Advertising Cloud DSP
 * Advertising Cloud Search

@@ -1,21 +1,20 @@
 ---
 description: Adobe Experience Platform Auditor 发行说明
-seo-description: Adobe Experience Platform Auditor 发行说明
-seo-title: Adobe Experience Platform Auditor 发行说明
+seo-description: Adobe Experience Platform Auditor Release Notes
+seo-title: Adobe Experience Platform Auditor release notes
 title: Adobe Experience Platform Auditor 发行说明
 uuid: 2e1eb2de-f162-45af-a9b0-15dbdac5531d
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: 7c8c55ed-6211-446b-9182-2e9b49dd117d
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 100%
+source-wordcount: '446'
+ht-degree: 99%
 
 ---
 
-
 # Adobe Experience Platform Auditor 发行说明{#auditor-release-notes}
 
-## 2019 年 2 月 5 日 {#section-f73142fd7c85492a806c7fc19a33a525}
+## 2019年2月5 {#section-f73142fd7c85492a806c7fc19a33a525}
 
 **增强功能**
 
@@ -25,7 +24,7 @@ ht-degree: 100%
 >
 >由于扫描数量增加，完成扫描所需的时间会变得较长。在某些情况下，完成 500 个页面的扫描可能需要长达 48 小时。
 
-## 2018 年 11 月 2 日 {#section-542a32872efa445dab688285bf87964b}
+## 2018年11月2日 {#section-542a32872efa445dab688285bf87964b}
 
 **新增功能**
 

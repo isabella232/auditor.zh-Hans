@@ -1,17 +1,16 @@
 ---
 description: 此参考可提供有关 Adobe Experience Platform Auditor 执行配置测试的更多信息。
-seo-description: 此参考可提供有关 Adobe Experience Platform Auditor 执行配置测试的更多信息。
-seo-title: 配置
+seo-description: This reference provides more information about the tests Adobe Experience Platform Auditor performs for configuration.
+seo-title: Configuration
 title: 配置
 uuid: d40d815c-edfe-48b9-921f-cea1b0b54a0a
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: e331d874-09f5-4a31-ad8c-6ee5d0849245
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '830'
 ht-degree: 100%
 
 ---
-
 
 # 配置
 
@@ -126,4 +125,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-

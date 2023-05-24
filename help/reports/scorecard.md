@@ -1,17 +1,16 @@
 ---
 description: 运行测试后，评分卡会显示有关审核的信息。
-seo-description: 运行测试后，评分卡会显示有关审核的信息。
-seo-title: 评分卡
+seo-description: After you run a test, the scorecard shows information about an audit.
+seo-title: Scorecard
 title: 评分卡
 uuid: a765cd6a-d3d6-4438-9621-d7899385a518
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: a2ccaf7d-744f-42f0-8193-1c6a93f7a09a
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '419'
 ht-degree: 100%
 
 ---
-
 
 # 评分卡{#scorecard}
 
@@ -58,7 +57,7 @@ ht-degree: 100%
 
 单击屏幕顶部的类别，可查看在每个类别中找到的问题。
 
-## 哪些页面是测试的一部分？{#section-fd38ffeb868648e89c34c5772fa65f46}
+## 哪些页面是测试的一部分？ {#section-fd38ffeb868648e89c34c5772fa65f46}
 
 您可以查看通过或未通过测试的 URL 列表。
 

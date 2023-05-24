@@ -1,17 +1,16 @@
 ---
 description: 此参考可提供有关 Adobe Experience Platform Auditor 执行标记一致性测试的更多信息。
-seo-description: 此参考可提供有关 Adobe Experience Platform Auditor 执行标记一致性测试的更多信息。
-seo-title: 标记一致性
+seo-description: This reference provides more information about the tests Adobe Experience Platform Auditor performs for tag consistency.
+seo-title: Tag consistency
 title: 标记一致性
 uuid: 16271dd6-3587-4f33-92f8-54ec4a3d6469
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: 681cf2f8-e022-4fb0-a06a-b4986710f501
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '105'
 ht-degree: 100%
 
 ---
-
 
 # 标记一致性
 

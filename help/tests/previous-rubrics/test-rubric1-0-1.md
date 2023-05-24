@@ -1,17 +1,16 @@
 ---
 description: 有关 Adobe Experience Platform Auditor 测试的信息
-seo-description: 有关 Adobe Experience Platform Auditor 测试的信息
-seo-title: 测试评分标准 1.0.1
+seo-description: information about the Adobe Experience Platform Auditor tests
+seo-title: Test rubric 1.0.1
 title: 测试评分标准 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: 115c762c-fce9-465f-a040-1ef81d4ad3f6
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '2727'
+source-wordcount: '2717'
 ht-degree: 100%
 
 ---
-
 
 # 测试评分标准 1.0.1{#test-rubric}
 
@@ -274,7 +273,7 @@ Platform Auditor 的一致性测试旨在查找所有扫描的页面中是否存
  </tbody> 
 </table>
 
-## 标记存在 {#tag-presence}
+## 标记状态 {#tag-presence}
 
 此参考可提供有关 Platform Auditor 执行的标记存在测试的更多信息。
 
@@ -426,4 +425,3 @@ Platform Auditor 会评估标记是否存在，以及标记在页面代码中的
   </tr> 
  </tbody> 
 </table>
-
